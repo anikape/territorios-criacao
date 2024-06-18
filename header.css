@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.86);
+}
+
+.navLogo img {
+  width: 32px;
+  height: 42px;
+}
+
+.navLogo {
+  color: rgba(251, 108, 4, 0.88);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.nav-link {
+  color: #FFF;
+  font-family: "Source Code Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-link:hover{
+  color: rgba(251, 108, 4, 0.88);
+}
+
+.navbar-toggler {
+  border-color: rgba(251, 108, 4, 0.88); /* Altera a cor da borda do botão */
+}
+
+
+
+.navbar-toggler-icon {
+  color: rgba(251, 108, 4, 0.88) !important; /* Define a cor do ícone do menu hamburguer */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens à direita */
+  gap: 20px;
+  align-items: center;
+  margin-left: 35rem; /* Aplicar apenas para telas grandes */
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-left: 0; /* Remover margem para dispositivos móveis */
+    flex-direction: column; /* Colocar itens em coluna para dispositivos móveis */
+    align-items: flex-start; /* Alinhar itens à esquerda no menu colapsado */
+  }
+
+  .collapse {
+    width: 100%; /* Garantir que o menu colapsado ocupe toda a largura */
+  }
+}
+
+/* Estilo personalizado para os itens da lista */
+.nav-item {
+  margin-left: 20px; /* Ajusta o espaçamento entre os itens */
+}
