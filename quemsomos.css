@@ -8,6 +8,12 @@
 
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .quem{
   background-image: url('assets/vetor1.png');
@@ -17,6 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
 }
 
@@ -74,6 +81,117 @@ padding-left: 6rem;
 padding-top: 45px;
 }
 
+
+.mercurio{
+  background-image: url('assets/vetor2.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.poc{
+  background-image: url('assets/vetor3.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.mercurio h2, .poc h2{
+  color: #FB6C04;
+  text-align: center;
+  font-family: "Source Code Variable";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 2rem;
+}
+
+.mercurio span, .poc span{
+  color: #000;
+font-family: "Source Code Pro";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.mercurio p, .poc p{
+  color: #000;
+font-family: "Source Sans Pro";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 1098px;
+padding-top: 1rem;
+text-align: center;
+}
+
+.information{
+  margin-top: 5rem;
+  background-image: url('assets/bgRoxo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1050px;
+  height: 353px;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.information p{
+  color: #000;
+  width: 717px;
+  color: #FFF;
+padding-right: 3rem;
+text-align: right;
+font-family: "Source Code Variable";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  
+}
+
+.spanP1{
+  color: #FB6C04;
+font-family: "Source Code Variable";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.spanP2{
+  color: #FFF;
+font-family: "Source Code Variable";
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.patrocinio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 252px;
+  margin-top: 5em;
+}
 
 
 
