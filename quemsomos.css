@@ -1,148 +1,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
-.criacao {
-  background: rgba(0, 0, 0, 0.86);
-  background-image: url('assets/grafic.png');
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.quem{
+  background-image: url('assets/vetor1.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 746px;
-
-}
-
-
-.criacao h1 {
-  color: #FB6C04;
-  font-family: "Source Code Pro";
-  font-size: 145px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  padding-top: 7.75rem;
-  padding-left: 0.5em;
-}
-
-.criacao h2 {
-  color: #FFF;
-  font-family: Source Sans Pro ExtraLight, sans-serif;
-  font-size: 96px;
-  font-style: normal;
-  font-weight: 200;
-  line-height: normal;
-  padding-left: 0.8em;
-}
-
-.criacao p {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  width: 555px;
-  height: 526px;
-  padding-top: 1em;
-  padding-left: 2.5em;
-}
-
-/*sessão 2*/
-
-.bemvindo {
+  background-position: right;
+  height: 761px;
   display: flex;
   justify-content: center;
-  text-align: center;
   align-items: center;
-  margin-top: 15rem;
-  height: 611px;
-
+  width: 100%;
 
 }
 
-.span1 {
-  color: #FB6C04;
+.quem img{
+  width: 238px;
+height: 305px;
+
+}
+
+.quem div{
+  margin-top: -3rem;
+  margin-left: -5rem;
+}
+
+.quem h1{
+  color: rgba(251, 108, 4, 0.88);
+
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Source Sans Pro";
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+}
+
+.spanText{
+  color: #3F3F3F;
+font-family: "Source Code Variable";
+font-size: 44px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.spanText2{
+  color: #3F3F3F;
+font-family: "Source Code Variable";
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.quem p{
+  color: #000;
+text-align: left;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Source Sans Pro";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 1009px;
+padding-left: 6rem;
+padding-top: 45px;
 }
 
 
-/*Sessão 3*/
-
-.iniciativas {
-  background-image: url('assets/bgIniciativas.png');
+.mercurio{
+  background-image: url('assets/vetor2.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 611px;
   width: 100%;
 }
 
-.iniciativas p {
-  color: #FFF;
-  font-family: "Source Sans Pro";
-  font-size: 40px;
-  font-weight: 600;
-  padding-top: 70px;
-  width: 870px;
-  text-align: center;
-}
-
-.iniciativa1 {
-  color: #FB6C04;
-}
-
-.iniciativa2 {
-  color: white;
-  font-size: 40px;
-  font-family: Source Code Variable;
-  font-weight: 300;
-}
-
-.cards {
+.poc{
+  background-image: url('assets/vetor3.png');
+  background-repeat: no-repeat;
+  background-position: right;
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  width: 100%;
 }
 
-.card-link {
-  display: block;
-  overflow: hidden;
-  position: relative;
-  width: 203px;
-  /* Defina o tamanho do card conforme necessário */
-  height: 283px;
-  /* Defina o tamanho do card conforme necessário */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.mercurio h2, .poc h2{
+  color: #FB6C04;
+  text-align: center;
+  font-family: "Source Code Variable";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 2rem;
 }
 
-.card-link:hover {
-  transform: translateY(-5px);
-  /* Move o card para cima */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  /* Adiciona uma sombra mais pronunciada */
+.mercurio span, .poc span{
+  color: #000;
+font-family: "Source Code Pro";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.mercurio p, .poc p{
+  color: #000;
+font-family: "Source Sans Pro";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 1098px;
+padding-top: 1rem;
+text-align: center;
+}
+
+.information{
+  margin-top: 5rem;
+  background-image: url('assets/bgRoxo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1050px;
+  height: 353px;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.information p{
+  color: #000;
+  width: 717px;
+  color: #FFF;
+padding-right: 3rem;
+text-align: right;
+font-family: "Source Code Variable";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
   
 }
 
-
-
-.card-link img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
+.spanP1{
+  color: #FB6C04;
+font-family: "Source Code Variable";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
 }
 
-.card-link:hover img {
-  transform: scale(1.1);
-  /* Aumenta ligeiramente a imagem no hover */
+.spanP2{
+  color: #FFF;
+font-family: "Source Code Variable";
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration-line: underline;
 }
 
 .patrocinio {
@@ -152,6 +192,17 @@
   height: 252px;
   margin-top: 5em;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   background: #2A2A2A;
@@ -327,6 +378,7 @@ height: 43px;
   gap:1rem;
 
 }
+
 button:hover{
   background-color: #5C0CCB;
   color:#FFF
@@ -350,36 +402,7 @@ align-items: center;
 
 @media (max-width: 991px){
   
-  .criacao{
-    max-width: 100%;
-  }
-
-  .criacao h1{
-    font-size: 60px;
-    padding-left: 0.2em;
-  }
-
-  .criacao h2{
-    font-size: 55px;
-    padding-left: 0.2em;
-  }
-
-  .criacao p{
-    font-family: 14px;
-    padding-left: 0.5em;
-    width: 95%;
-  }
-
-  .cards {
-    flex-wrap: wrap; /* Permite que os cards quebrem linha */
-    justify-content: center; /* Centraliza os cards horizontalmente */
-  }
-
-  .card-link {
-    width: calc(50% - 20px); /* Calcula 50% da largura menos o espaçamento */
-    max-width: 300px; /* Define a largura máxima dos cards */
-    margin-bottom: 20px; /* Espaçamento entre os cards */
-  }
+ 
 
   footer{
     display: flex;

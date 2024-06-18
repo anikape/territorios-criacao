@@ -50,7 +50,7 @@
   justify-content: flex-end; /* Alinha os itens à direita */
   gap: 20px;
   align-items: center;
-  margin-left: 35rem; /* Aplicar apenas para telas grandes */
+  margin-left: 30rem; /* Aplicar apenas para telas grandes */
 }
 
 @media (max-width: 991px) {
