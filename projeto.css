@@ -1,21 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-}
-
-main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 
-.quem{
+.projeto{
   background-image: url('assets/vetor1.png');
   background-repeat: no-repeat;
   background-position: right;
@@ -27,18 +17,18 @@ main{
 
 }
 
-.quem img{
+.projeto img{
   width: 238px;
 height: 305px;
 
 }
 
-.quem div{
+.projeto div{
   margin-top: -3rem;
   margin-left: -5rem;
 }
 
-.quem h1{
+.projeto h1{
   color: rgba(251, 108, 4, 0.88);
 
 text-align: center;
@@ -67,7 +57,7 @@ font-weight: 600;
 line-height: normal;
 }
 
-.quem p{
+.projeto p{
   color: #000;
 text-align: left;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -81,61 +71,51 @@ padding-left: 6rem;
 padding-top: 45px;
 }
 
-
-.mercurio{
-  background-image: url('assets/vetor2.png');
-  background-repeat: no-repeat;
-  background-position: left;
+.objetivo{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  margin: 0 auto;
+  width: 1284px;
 }
 
-.poc{
-  background-image: url('assets/vetor3.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 2rem;
-  width: 100%;
-}
-
-.mercurio h2, .poc h2{
+.objetivoTitle{
   color: #FB6C04;
-  text-align: center;
-  font-family: "Source Code Variable";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  padding-top: 2rem;
-}
-
-.mercurio span, .poc span{
-  color: #000;
-font-family: "Source Code Pro";
-font-size: 32px;
+font-family: "Source Code Variable";
+font-size: 30px;
 font-style: normal;
-font-weight: 400;
+font-weight: 700;
 line-height: normal;
+
 }
 
-.mercurio p, .poc p{
-  color: #000;
+.objetivoParag{
+  color: #1E1E1E;
 font-family: "Source Sans Pro";
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-width: 1098px;
-padding-top: 1rem;
-text-align: center;
 }
+
+.objetivo ul li{
+  list-style: none;
+  margin-left: -2rem;
+}
+
+.objetivo ul li:last-child{
+  padding-top: 1rem;
+}
+
+.objetivo div{
+  padding-top: 2rem;
+}
+
+.objetivo div:last-child{
+  padding-bottom: 2rem;
+}
+
 
 .information{
   margin-top: 5rem;
@@ -195,6 +175,8 @@ text-decoration-line: underline;
 
 
 
+
+
 .footer {
   background: #2A2A2A;
   height: 709px;
@@ -206,7 +188,7 @@ text-decoration-line: underline;
 .footer-container {
   display: grid;
   justify-content: center;
- 
+
   grid-template-columns: repeat(4, 1fr);
   /* 3 colunas de largura igual */
   gap: 15px;
@@ -221,12 +203,13 @@ text-decoration-line: underline;
 
 
 .footer-column {
-  padding: 0 15px;/* Espaçamento interno das colunas */
-   /* Ajuste de margem para a esquerda */
-  
+  padding: 0 15px;
+  /* Espaçamento interno das colunas */
+  /* Ajuste de margem para a esquerda */
+
 }
 
-#col2{
+#col2 {
   margin-left: -10rem;
 }
 
@@ -243,7 +226,7 @@ text-decoration-line: underline;
   justify-self: end;
   /* Alinha à direita */
   margin-top: 2rem;
-  
+
 }
 
 .list {
@@ -313,77 +296,77 @@ text-decoration-line: underline;
 }
 
 
-.contatoSpan{
+.contatoSpan {
   color: #FFF;
-font-family: "Source Code Variable";
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: "Source Code Variable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 
-.form input{
+.form input {
   border: none;
   outline: none;
   background: #FFF;
   width: 456px;
-height: 50px;
-color: rgba(63, 63, 63, 0.65);
-font-family: "Source Sans Pro";
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-padding: 0.5em;
+  height: 50px;
+  color: rgba(63, 63, 63, 0.65);
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.5em;
 }
 
-.form textarea{
+.form textarea {
   border: none;
   outline: none;
   width: 456px;
-height: 100px;
-background: #FFF;
-color: rgba(63, 63, 63, 0.65);
-padding: 0.5em;
-font-family: "Source Sans Pro";
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
+  height: 100px;
+  background: #FFF;
+  color: rgba(63, 63, 63, 0.65);
+  padding: 0.5em;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.form-group{
+.form-group {
   padding-top: 0.9em;
 }
 
-.form-group button{
+.form-group button {
   width: 150px;
-height: 43px;
+  height: 43px;
   justify-content: flex-end;
   border: none;
 
 }
 
-#buttons{
+#buttons {
   display: flex;
   justify-content: flex-end;
-  gap:1rem;
+  gap: 1rem;
 
 }
 
-button:hover{
+button:hover {
   background-color: #5C0CCB;
-  color:#FFF
+  color: #FFF
 }
 
-#copyright{
-display: flex;
-justify-content: center;
-align-items: center;
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
 }
 
-#copyright p{
+#copyright p {
   color: #FFF;
   font-size: 14px;
   font-style: normal;
@@ -391,69 +374,73 @@ align-items: center;
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
-@media (max-width: 991px){
-  
- 
 
-  footer{
+
+
+
+@media (max-width: 991px) {
+
+
+  footer {
     display: flex;
     flex-direction: column;
     height: 100vh;
     background: #2A2A2A;
   }
 
-  
-  .footer-container{
+
+  .footer-container {
     display: flex;
     flex-direction: column;
     padding-left: 0;
   }
 
-  #col2{
+  #col2 {
     margin-left: 0;
     margin-top: -4em;
     background: #2A2A2A;
   }
 
-  .info{
-    font-size: 25px ;
+  .info {
+    font-size: 25px;
     width: 90%;
   }
 
-  .footer-column-right{
+  .footer-column-right {
     display: none;
   }
 
- #formulario{
+  #formulario {
     background: #2A2A2A;
     margin-top: -2em;
-    
+
   }
 
-  .form-group{
+  .form-group {
     display: flex;
     flex-direction: column;
   }
 
-  .form input, .form textarea{
+  .form input,
+  .form textarea {
     width: 96%;
   }
 
-  #buttons{
+  #buttons {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     flex-direction: row;
     padding-bottom: 1.5em;
-    gap:2em;
+    gap: 2em;
   }
 
-  #copyright{
+  #copyright {
     background: #2A2A2A;
-    
+
   }
 
-  #copyright p{
+  #copyright p {
     font-size: 12px;
   }
 
