@@ -1,0 +1,503 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.formacao{
+  background-image: url('assets/vetor1.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 761px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.formacao img{
+  width: 238px;
+height: 305px;
+
+}
+
+.formacao div{
+  margin-top: 1rem;
+  margin-left: -5rem;
+}
+
+.formacao h1{
+  color: rgba(251, 108, 4, 0.88);
+
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Source Sans Pro";
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+}
+
+.spanText{
+  color: #3F3F3F;
+font-family: "Source Code Variable";
+font-size: 44px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.spanText2{
+  color: #3F3F3F;
+font-family: "Source Code Variable";
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.formacao p{
+  color: #000;
+text-align: left;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Source Sans Pro";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 1009px;
+padding-left: 6rem;
+padding-top: 45px;
+}
+
+
+.bolsistasTitle{
+  
+  color: #2A2A2A;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Source Code Variable";
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.bolsistasSpan1{
+  color: rgba(251, 108, 4, 0.88);
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Source Sans Pro";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.bolsistasSpan2{
+  color: #2A2A2A;
+  font-family: "Source Code Variable";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.bolsas{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 5rem auto;
+  max-width: calc(2 * 585px + 2rem);
+
+
+}
+
+.card{
+  border: none;
+}
+
+
+.cardBolsa{
+  background: #2A2A2A;;
+  background-image: url('assets/Group 7.png');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 440px;
+height: 421px;
+}
+
+
+.cardBolsa2{
+  background: #2A2A2A;;
+  background-image: url('assets/Group 8.png');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 440px;
+height: 421px;
+}
+
+
+.cardBolsa img{
+  width: 317px;
+height: 368px;
+
+}
+
+.card p{
+  color: #000;
+font-family: "Source Code Variable";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 436px;
+padding-top: 1rem;
+}
+
+.cardSpan{
+  color: #FB6C04;
+font-family: "Source Code Pro";
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+
+
+
+.information{
+  margin-top: 5rem;
+  background-image: url('assets/bgRoxo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1050px;
+  height: 353px;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.information p{
+  color: #000;
+  width: 717px;
+  color: #FFF;
+padding-right: 3rem;
+text-align: right;
+font-family: "Source Code Variable";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  
+}
+
+.spanP1{
+  color: #FB6C04;
+font-family: "Source Code Variable";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.spanP2{
+  color: #FFF;
+font-family: "Source Code Variable";
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.patrocinio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 252px;
+  margin-top: 5em;
+}
+
+.footer {
+  background: #2A2A2A;
+  height: 709px;
+  width: 100%;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: repeat(4, 1fr);
+  /* 3 colunas de largura igual */
+  gap: 15px;
+  /* Espaçamento entre as colunas */
+  /* max-width: 1200px; */
+  /* Largura máxima do footer */
+  margin: 0 auto;
+  /* Centraliza o footer na página */
+  padding-left: 10rem;
+}
+
+
+
+.footer-column {
+  padding: 0 15px;
+  /* Espaçamento interno das colunas */
+  /* Ajuste de margem para a esquerda */
+
+}
+
+#col2 {
+  margin-left: -10rem;
+}
+
+.footer-column h3 {
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-weight: 700;
+  color: #FB6C04;
+  padding-top: 60px;
+}
+
+.footer-column-right {
+  display: flex;
+  justify-self: end;
+  /* Alinha à direita */
+  margin-top: 2rem;
+
+}
+
+.list {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list2 {
+  width: 300px;
+}
+
+.list2 ul li {
+  align-items: center;
+}
+
+.footer-link {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  /* Permite que os itens sejam flexíveis */
+  align-items: center;
+  /* Alinha os itens verticalmente */
+}
+
+.footer-link img {
+  margin-right: 10px;
+  /* Espaçamento entre a imagem e o texto */
+}
+
+.info span {
+  color: #FB6C04;
+
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+#infospan {
+  color: #FFF;
+  font-family: "Source Code Variable";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.info {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  width: 567px;
+  text-align: left;
+  padding: 1.2rem;
+}
+
+
+.contatoSpan {
+  color: #FFF;
+  font-family: "Source Code Variable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.form input {
+  border: none;
+  outline: none;
+  background: #FFF;
+  width: 456px;
+  height: 50px;
+  color: rgba(63, 63, 63, 0.65);
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.5em;
+}
+
+.form textarea {
+  border: none;
+  outline: none;
+  width: 456px;
+  height: 100px;
+  background: #FFF;
+  color: rgba(63, 63, 63, 0.65);
+  padding: 0.5em;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.form-group {
+  padding-top: 0.9em;
+}
+
+.form-group button {
+  width: 150px;
+  height: 43px;
+  justify-content: flex-end;
+  border: none;
+
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+
+}
+
+button:hover {
+  background-color: #5C0CCB;
+  color: #FFF
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#copyright p {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #2A2A2A;
+  }
+
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  #col2 {
+    margin-left: 0;
+    margin-top: -4em;
+    background: #2A2A2A;
+  }
+
+  .info {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .footer-column-right {
+    display: none;
+  }
+
+  #formulario {
+    background: #2A2A2A;
+    margin-top: -2em;
+
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form input,
+  .form textarea {
+    width: 96%;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: row;
+    padding-bottom: 1.5em;
+    gap: 2em;
+  }
+
+  #copyright {
+    background: #2A2A2A;
+
+  }
+
+  #copyright p {
+    font-size: 12px;
+  }
+
+}
