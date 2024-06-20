@@ -1,178 +1,220 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.criacao {
-  background: rgba(0, 0, 0, 0.86);
-  background-image: url('assets/grafic.png');
+
+.formacao{
+  background-image: url('assets/vetor1.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 746px;
-
-}
-
-
-.criacao h1 {
-  color: #FB6C04;
-  font-family: "Source Code Pro";
-  font-size: 145px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  padding-top: 7.75rem;
-  padding-left: 0.5em;
-}
-
-#h1mb {
-  display: none;
-}
-
-.criacao h2 {
-  color: #FFF;
-  font-family: Source Sans Pro ExtraLight, sans-serif;
-  font-size: 96px;
-  font-style: normal;
-  font-weight: 200;
-  line-height: normal;
-  padding-left: 0.8em;
-}
-
-.criacao p {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  width: 555px;
-  height: 526px;
-  padding-top: 1em;
-  padding-left: 2.5em;
-}
-
-/*sessão 2*/
-
-.bemvindo {
+  background-position: right;
+  height: 761px;
   display: flex;
   justify-content: center;
-  text-align: center;
   align-items: center;
-  height: 900px;
-
-
+  width: 100%;
 
 }
 
-.bemvindo h3 {
+.formacao img{
+  width: 238px;
+height: 305px;
+
+}
+
+.formacao div{
+  margin-top: 1rem;
+  margin-left: -5rem;
+}
+
+.formacao h1{
+  color: rgba(251, 108, 4, 0.88);
+
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Source Sans Pro";
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+}
+
+.spanText{
+  color: #3F3F3F;
+font-family: "Source Code Variable";
+font-size: 44px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.spanText2{
+  color: #3F3F3F;
+font-family: "Source Code Variable";
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.formacao p{
   color: #000;
+text-align: left;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Source Sans Pro";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 1009px;
+padding-left: 6rem;
+padding-top: 45px;
+}
+
+
+.bolsistasTitle{
+  
+  color: #2A2A2A;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: "Source Code Variable";
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.bolsistasSpan1{
+  color: rgba(251, 108, 4, 0.88);
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Source Sans Pro";
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  width: 1203px;
-}
-
-.span1 {
-  color: rgba(251, 108, 4, 0.88);
-  font-family: "Source Sans Pro";
-  font-size: 65px;
+  font-size: 55px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 
-.span2 {
+
+.bolsistasSpan2{
   color: #2A2A2A;
   font-family: "Source Code Variable";
-  font-size: 64px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
 
+.bolsas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 5rem auto;
+  max-width: calc(2 * 585px + 2rem);
+}
 
-/*Sessão 3*/
+.card {
+  border: none;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background: #fff;
+}
 
-.iniciativas {
-  background-image: url('assets/bgIniciativas.png');
+.cardBolsa, .cardBolsa2 {
+  background: #2A2A2A;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 421px;
+}
+
+.cardBolsa {
+  background-image: url('assets/Group 7.png');
+}
+
+.cardBolsa2 {
+  background-image: url('assets/Group 8.png');
+}
+
+.cardBolsa img, .cardBolsa2 img {
+  width: 317px;
+  height: 368px;
+}
+
+.card p {
+  color: #000;
+  font-family: "Source Code Variable";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.cardSpan {
+  color: #FB6C04;
+  font-family: "Source Code Pro";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+
+
+.information{
+  margin-top: 5rem;
+  background-image: url('assets/bgRoxo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 1050px;
+  height: 353px;
+  margin: 5rem auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 611px;
-  width: 100%;
+  margin-bottom: 5rem;
 }
 
-.iniciativas p {
+.information p{
+  color: #000;
+  width: 717px;
   color: #FFF;
-  font-family: "Source Sans Pro";
-  font-size: 40px;
-  font-weight: 600;
-  padding-top: 70px;
-  width: 870px;
-  text-align: center;
+padding-right: 3rem;
+text-align: right;
+font-family: "Source Code Variable";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  
 }
 
-.iniciativa1 {
+.spanP1{
   color: #FB6C04;
+font-family: "Source Code Variable";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
 }
 
-.iniciativa2 {
-  color: white;
-  font-size: 40px;
-  font-family: Source Code Variable;
-  font-weight: 300;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.card-link {
-  display: block;
-  overflow: hidden;
-  position: relative;
-  width: 203px;
-  /* Defina o tamanho do card conforme necessário */
-  height: 283px;
-  /* Defina o tamanho do card conforme necessário */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-link:hover {
-  transform: translateY(-5px);
-  /* Move o card para cima */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  /* Adiciona uma sombra mais pronunciada */
-
-}
-
-
-
-.card-link img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.card-link:hover img {
-  transform: scale(1.1);
-  /* Aumenta ligeiramente a imagem no hover */
+.spanP2{
+  color: #FFF;
+font-family: "Source Code Variable";
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration-line: underline;
 }
 
 .patrocinio {
@@ -380,64 +422,72 @@ button:hover {
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
+
+
+
+
 @media (max-width: 991px) {
 
-  .criacao {
+  .formacao img{
+    display: none;
+  }
+
+  .formacao div{
+    margin-left: 0;
+    width: 80%;
+        
+  }
+
+  .formacao p{
+    padding-left: 0;
+    padding-top: 2em;
+    font-size: 23px;
+    word-wrap: break-word;
+    width: 100%;
+   
+  }
+  .bolsas {
+    grid-template-columns: 1fr;
     max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
   }
 
-  .h1desktop {
-    display: none;
+  .card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
   }
 
-  #h1mb {
-   display: flex;
-   font-size: 70px;
-    padding-left: 0.2em;
-    font-weight: 800;
-    width: 252px;
+  .cardBolsa, .cardBolsa2 {
+    width: 100%;
+    height: auto;
+    padding-top: 56.25%; /* 16:9 ratio */
+    position: relative;
   }
 
-  .criacao h2 {
-    font-size: 50px;
-    padding-left: 0.2em;
+  .cardBolsa img, .cardBolsa2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
-  .criacao p {
-    font-size: 20px;
-    padding-left: 0.2em;
-    font-weight: 500;
-    width: 345px;
-    padding-left: 0.5em;
-    height: 100px;
+  .card p {
+    width: 100%;
+    font-size: 16px;
   }
 
-  .bemvindo{
-width: 90%;
-margin: 0 auto;
+  .cardSpan {
+    font-size: 18px;
   }
 
-  .iniciativas p {
-    display: none;
-  }
 
-  .cards {
-    flex-wrap: wrap;
-    /* Permite que os cards quebrem linha */
-    justify-content: space-around;
-    /* Centraliza os cards horizontalmente */
 
-  }
 
-  .card-link {
-    background-image: url('assets/cardMb.png');
-    max-width: 147px;
-    /* Define a largura máxima dos cards */
-    height: 205px;
-    margin-bottom: 20px;
-    /* Espaçamento entre os cards */
-    gap: 20rem;
-  }
+
 
   footer {
     display: flex;
@@ -455,7 +505,7 @@ margin: 0 auto;
 
   #col2 {
     margin-left: 0;
-    margin-top: -4em;
+    margin-top: -1em;
     background: #2A2A2A;
   }
 
