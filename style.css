@@ -412,6 +412,11 @@ button:hover {
     height: 100px;
   }
 
+  .bemvindo{
+width: 90%;
+margin: 0 auto;
+  }
+
   .iniciativas p {
     display: none;
   }
