@@ -18,7 +18,11 @@
           Territórios de Criação  
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">
+
+            <img src="assets/hamburguer.png" alt="" srcset="">
+
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -41,17 +45,18 @@
               <a class="nav-link"  href="publicacaoes.html"aria-disabled="true">Publicações</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">
+              <a href="https://www.youtube.com/@mercuriogestaoproducaoeaco6626" class="nav-link" aria-disabled="true">
                 <img src="assets/youtube.png" alt="Youtube Logo" srcset="">
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">
+              <a href="https://www.instagram.com/territoriosdecriacao/" class="nav-link" aria-disabled="true" target="_blank
+              ">
                 <img src="assets/instagram.png" alt="Instagram logo">
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">
+              <a class="nav-link" href="mailto:territoriosdecriacao@gmail.com">
                 <img src="assets/mail.png" alt="E-mail Logo" srcset="">
               </a>
             </li>
@@ -126,7 +131,12 @@
 <section class="patrocinio">
 
   <figure>
-    <img src="assets/patrocinio.png" alt="Logo dos patrocinadores" srcset="">
+    <img class="imgDesk"
+    src="assets/patrocinio.png" alt="Logo dos patrocinadores" srcset="">
+  </figure>
+
+  <figure>
+    <img src="assets/component42.png" alt="" class="imgMb">
   </figure>
 
 
@@ -160,13 +170,13 @@
             <a href="projeto.html">Projeto</a>
           </li>
           <li class="footer-link">
-            <a href="#">Editais</a>
+            <a href="edtais.html">Editais</a>
           </li>
           <li class="footer-link">
-            <a href="#">Formação</a>
+            <a href="formacao.html">Formação</a>
           </li>
           <li class="footer-link">
-            <a href="#">Publicações</a>
+            <a href="publicacao.html">Publicações</a>
           </li>
         </ul>
 
@@ -179,21 +189,21 @@
          <ul class="list2">
           <h3>Contatos</h3>
           <li class="footer-link" id="link1">
-            <a href="#">
+            <a href="https://www.youtube.com/@mercuriogestaoproducaoeaco6626">
               <img src="assets/youtube2.png" alt="Ícone Youtube">
               Visite nosso canal no YouTube
             </a>
           </li>
           <li class="footer-link" id="link1">
-            <a href="#">
+            <a href="https://www.instagram.com/territoriosdecriacao/" target="_blank">
               <img src="assets/insta2.png" alt="Ícone Página Inicial">
               territoriosdecriacao
             </a>
           </li>
           <li class="footer-link" id="link1">
-            <a href="#">
+            <a href="mailto:territoriosdecriacao@gmail.com">
               <img src="assets/mail2.png" alt="Ícone Página Inicial">
-              contato@territoriosdecriação.com.br
+              territoriosdecriacao@gmail.com
             </a>
           </li>
         </ul>
@@ -202,7 +212,7 @@
       <div class="footer-column" id="formulario">
         <h3>Formulário<span class="contatoSpan"> de contato</span> </h3>
 
-        <form class="form" action="#" method="POST">
+        <form class="form" id="contactForm">
           <div class="form-group">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required placeholder="Digite seu nome...">
@@ -216,11 +226,12 @@
             <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem..."></textarea>
           </div>
           <div class="form-group" id="buttons">
-            
             <button type="button" class="cancel" onclick="limparFormulario()">Cancelar</button>
             <button type="submit">Enviar</button>
           </div>
         </form>
+        <div id="formResponse" style="padding-top: 1em; margin: 0 auto;"></div>
+      </div>
 
 
       </div>

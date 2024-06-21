@@ -225,6 +225,10 @@ text-decoration-line: underline;
   margin-top: 5em;
 }
 
+.imgMb{
+  display: none;
+}
+
 .footer {
   background: #2A2A2A;
   height: 709px;
@@ -426,7 +430,12 @@ button:hover {
 
 
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
+
+  .formacao {
+    background: none;
+  }
+
 
   .formacao img{
     display: none;
@@ -485,6 +494,28 @@ button:hover {
   }
 
 
+  .information{
+    width: 100%;
+    background-image: url('assets/infoBgMb.png');
+  
+    }
+  
+    .information p, .spanP1, .spanP2, .information img{
+      display: none;
+    }
+
+    .patrocinio{
+      height: auto;
+    }
+  
+    .imgDesk{
+      display: none;
+    }
+  
+    .imgMb{
+        display: flex;
+    }
+  
 
 
 

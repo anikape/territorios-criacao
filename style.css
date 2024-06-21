@@ -183,6 +183,10 @@
   margin-top: 5em;
 }
 
+.imgMb{
+  display: none;
+}
+
 .footer {
   background: #2A2A2A;
   height: 709px;
@@ -380,7 +384,7 @@ button:hover {
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
 
   .criacao {
     max-width: 100%;
@@ -439,6 +443,18 @@ margin: 0 auto;
     gap: 20rem;
   }
 
+  .patrocinio{
+    height: auto;
+  }
+
+  .imgDesk{
+    display: none;
+  }
+
+  .imgMb{
+      display: flex;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
@@ -455,14 +471,17 @@ margin: 0 auto;
 
   #col2 {
     margin-left: 0;
-    margin-top: -4em;
+    margin-top: -1em;
     background: #2A2A2A;
   }
 
   .info {
     font-size: 25px;
     width: 90%;
+  
   }
+
+
 
   .footer-column-right {
     display: none;

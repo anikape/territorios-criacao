@@ -82,40 +82,7 @@ padding-top: 45px;
   gap: 5rem;
 }
 
-.editalCard1 {
-  background: #2A2A2A;
-  background-image: url('assets/edital.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 576px;
-  height: 544px;
-  position: relative;
-}
 
-.editalCard2 {
-  background: #2A2A2A;
-  background-image: url('assets/resultado.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 576px;
-  height: 544px;
-  position: relative;
-}
-
-.editalLink {
-  display: flex;
-  text-decoration: none;
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-decoration-line: underline;
-  position: absolute;
-  bottom: 75px;
-  left: 70px;
-}
 
 
 .agenda{
@@ -157,68 +124,107 @@ text-align: center;
   line-height: normal;
 
 }
-.cardsSection {
+
+.agendaCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videos {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 ratio */
+  height: 0;
+
+}
+
+.videos iframe {
+ 
+  width: 912px;
+  height: 465px;
+  margin: 0 auto;
+}
+
+
+/* .cardsSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   gap: 2rem;
   margin: 2rem auto;
-  max-width: calc(2 * 585px + 2rem); /* Ajustado max-width para corresponder à largura dos cards */
-}
+  max-width: calc(2 * 585px + 2rem);
+} */
 
 .card {
-  height: 671px;
-  width: 585px;
-  padding: 1rem;
-  margin-bottom: 2rem; /* Espaço entre as linhas */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 820px;
+  width: 524px;
+  /* padding: 1rem; */
+  /* margin-bottom: 2rem; Espaço entre as linhas */
   border: none; /* Garante que não há borda */
   box-shadow: none; /* Garante que não há sombra */
 }
 
 .videos {
-  background: #2A2A2A;
+  /* background: #2A2A2A; */
   display: flex;
   justify-content: center;
   align-items: center;
-  border: none; /* Garante que não há borda */
+   width: 911px;
+  height: 465px;
+  
 }
 
-.card video {
+
+
+/* .card video {
   width: 574px;
   height: 330px;
-  border-radius: 0; /* Garante que não há raio de borda */
-}
+  border-radius: 0; 
+} */
+
+
 
 .title {
   color: rgba(251, 108, 4, 0.88);
-  text-align: center;
+text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Source Sans Pro";
-  font-size: 29px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   padding-top: 2rem;
-  width: 591px;
+  width: 900px;
   text-align: left;
+  margin-top: 12rem;
+  padding-left: 1em;
 }
 
 .titleSpan {
   color: #2A2A2A;
   font-family: "Source Code Variable";
-  font-size: 29px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  
 }
 
 .titleSpan2 {
   color: #2A2A2A;
   font-family: "Source Code Variable";
-  font-size: 29px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  
 }
 
 .card p {
@@ -289,6 +295,10 @@ text-decoration-line: underline;
   align-items: center;
   height: 252px;
   margin-top: 5em;
+}
+
+.imgMb{
+  display: none;
 }
 
 
@@ -491,53 +501,79 @@ button:hover {
 
 
 
+@media (max-width: 768px) {
 
+  .editais {
+    background: none;
+  }
 
-@media (max-width: 991px) {
-
-  .editais img{
+  .editais img {
     display: none;
   }
 
-  .editais div{
+  .editais div {
     margin-left: 0;
     width: 80%;
-        
   }
 
-  .editais p{
+  .editais p {
     padding-left: 0;
     padding-top: 2em;
     font-size: 20px;
     word-wrap: break-word;
     width: 100%;
-   
   }
 
   .editalContent {
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-   padding-top: 10rem;
-   
+    padding-top: 10rem;
+    width: 100%;
   }
 
   .editalCard1, .editalCard2 {
-    width: 90%;
-    background-color: none;
-    background-size: contain;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .editalCard1 img, .editalCard2 img{
+   
+    width: 300px;
   }
 
   .editalLink {
-  bottom: 35px;
-  left: 130px;
+    bottom: 35px;
+    left: 130px;
     text-align: center;
   }
+
+  .agenda{
+    padding-bottom: 4rem;
+  }
+
+  .videos iframe{
+    padding-bottom: 4rem;
+  }
+
+  .title, .titleSpan, .titleSpan2{
+    font: 10px;
+    padding-left: 0.5rem;
+    text-align: center;
+    
+    width: 100%;
+   
+  
+  }
+
   .cardsSection {
     grid-template-columns: 1fr;
     max-width: 100%;
     margin: 0 auto;
     padding: 1rem;
+
   }
 
   .card {
@@ -576,8 +612,29 @@ button:hover {
     padding-top: 1rem;
   }
 
+  .information{
+  width: 100%;
+  background-image: url('assets/infoBgMb.png');
 
+  }
 
+  .information p, .spanP1, .spanP2, .information img{
+    display: none;
+  }
+
+  .patrocinio{
+    height: auto;
+  }
+
+  .imgDesk{
+    display: none;
+  }
+
+  .imgMb{
+      display: flex;
+  }
+
+  
 
   footer {
     display: flex;
@@ -585,7 +642,6 @@ button:hover {
     height: 100vh;
     background: #2A2A2A;
   }
-
 
   .footer-container {
     display: flex;
@@ -611,7 +667,6 @@ button:hover {
   #formulario {
     background: #2A2A2A;
     margin-top: -2em;
-
   }
 
   .form-group {
@@ -635,7 +690,6 @@ button:hover {
 
   #copyright {
     background: #2A2A2A;
-
   }
 
   #copyright p {
@@ -643,3 +697,5 @@ button:hover {
   }
 
 }
+
+

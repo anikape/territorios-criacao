@@ -155,10 +155,6 @@ line-height: normal;
   
 }
 
-
-
-
-
 .content{
   margin-top: -1rem;
  padding-left: 2rem;
@@ -202,12 +198,6 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
-
-
-
-
-
 
 
 .information{
@@ -266,6 +256,9 @@ text-decoration-line: underline;
   margin-top: 5em;
 }
 
+.imgMb{
+  display: none;
+}
 
 .footer {
   background: #2A2A2A;
@@ -465,10 +458,11 @@ button:hover {
 }
 
 
+@media (max-width: 768px) {
 
-
-
-@media (max-width: 991px) {
+  .publicacao{
+    background: none;
+  }
 
   .publicacao img{
     display: none;
@@ -492,7 +486,28 @@ button:hover {
   }
 
 
+  .information{
+    width: 100%;
+    background-image: url('assets/infoBgMb.png');
+  
+    }
+  
+    .information p, .spanP1, .spanP2, .information img{
+      display: none;
+    }
 
+    .patrocinio{
+      height: auto;
+    }
+  
+    .imgDesk{
+      display: none;
+    }
+  
+    .imgMb{
+        display: flex;
+    }
+  
 
 
 
@@ -512,7 +527,7 @@ button:hover {
 
   #col2 {
     margin-left: 0;
-    margin-top: -4em;
+    margin-top: -1em;
     background: #2A2A2A;
   }
 
