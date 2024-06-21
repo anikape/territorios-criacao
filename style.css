@@ -358,11 +358,11 @@
   gap: 1rem;
 
 }
-/* 
+
 button:hover {
   background-color: #5C0CCB;
   color: #FFF
-} */
+}
 
 #copyright {
   display: flex;
