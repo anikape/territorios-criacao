@@ -210,7 +210,7 @@ text-decoration-line: underline;
 .footer-container {
   display: grid;
   justify-content: center;
- 
+
   grid-template-columns: repeat(4, 1fr);
   /* 3 colunas de largura igual */
   gap: 15px;
@@ -225,12 +225,13 @@ text-decoration-line: underline;
 
 
 .footer-column {
-  padding: 0 15px;/* Espaçamento interno das colunas */
-   /* Ajuste de margem para a esquerda */
-  
+  padding: 0 15px;
+  /* Espaçamento interno das colunas */
+  /* Ajuste de margem para a esquerda */
+
 }
 
-#col2{
+#col2 {
   margin-left: -10rem;
 }
 
@@ -247,7 +248,7 @@ text-decoration-line: underline;
   justify-self: end;
   /* Alinha à direita */
   margin-top: 2rem;
-  
+
 }
 
 .list {
@@ -317,83 +318,84 @@ text-decoration-line: underline;
 }
 
 
-.contatoSpan{
+.contatoSpan {
   color: #FFF;
-font-family: "Source Code Variable";
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: "Source Code Variable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 
-.form input{
+.form input {
   border: none;
   outline: none;
   background: #FFF;
   width: 456px;
-height: 50px;
-color: rgba(63, 63, 63, 0.65);
-font-family: "Source Sans Pro";
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-padding: 0.5em;
+  height: 50px;
+  color: rgba(63, 63, 63, 0.65);
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.5em;
 }
 
-.form textarea{
+.form textarea {
   border: none;
   outline: none;
   width: 456px;
-height: 100px;
-background: #FFF;
-color: rgba(63, 63, 63, 0.65);
-padding: 0.5em;
-font-family: "Source Sans Pro";
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
+  height: 100px;
+  background: #FFF;
+  color: rgba(63, 63, 63, 0.65);
+  padding: 0.5em;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.form-group{
+.form-group {
   padding-top: 0.9em;
 }
 
-.form-group button{
+.form-group button {
   width: 150px;
-height: 43px;
+  height: 43px;
   justify-content: flex-end;
   border: none;
 
 }
 
-#buttons{
+#buttons {
   display: flex;
   justify-content: flex-end;
-  gap:1rem;
+  gap: 1rem;
 
 }
 
-button:hover{
+button:hover {
   background-color: #5C0CCB;
-  color:#FFF
+  color: #FFF
 }
 
-#copyright{
-display: flex;
-justify-content: center;
-align-items: center;
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
 }
 
-#copyright p{
+#copyright p {
   color: #FFF;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   font-family: "Be Vietnam Pro", sans-serif;
 }
+
 
 @media (max-width: 768px){
 

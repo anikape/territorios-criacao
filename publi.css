@@ -200,6 +200,87 @@ line-height: normal;
 }
 
 
+
+
+.formContact {
+  display: flex;
+  flex-direction: column;
+  width: 1238px;
+  height: 539px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.formContact h3 {
+  width: 910px;
+  color: #FB6C04;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.formContact p {
+  color: #2A2A2A;
+  font-family: "Source Code Variable";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+
+}
+
+
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  background: rgba(63, 63, 63, 0.00);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 60px;
+}
+
+
+
+.group input {
+  background: transparent;
+  outline: none;
+  height: 56px;
+  width: 159px;
+}
+
+
+
+#groupBtn {
+  background-color: #5C0CCB;
+  height: 60px;
+  width: 159px;
+  border: none;
+  outline: none;
+}
+
+.formContact span {
+  color: #2A2A2A;
+  font-family: "Source Code Variable";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+
+
 .information{
   margin-top: 5rem;
   background-image: url('assets/bgRoxo.png');
@@ -483,6 +564,30 @@ button:hover {
     font-size: 26px;
     padding-left: 5rem;
     max-width: 100%;
+  }
+
+  
+  .formContact{
+    width: 100%;
+  }
+
+  .formContact h3{
+    font-size: 35px;
+    word-wrap: break-word;
+    width: 80%;
+  }
+
+  .formContact p, .formContact span {
+font-size: 30px;
+width: 90%;
+text-align: left;
+padding-top: 1rem;
+padding-bottom: 1rem;
+  }
+
+  .group{
+    width: 100%;
+   
   }
 
 

@@ -487,6 +487,12 @@ button:hover {
   color: #FFF
 }
 
+#formResponse {
+  text-align: center;
+  padding: 1em;
+  color: #28a745; /* verde para sucesso */
+}
+
 #copyright {
   display: flex;
   justify-content: center;
