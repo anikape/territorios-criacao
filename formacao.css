@@ -428,6 +428,11 @@ button:hover {
 
 @media (max-width: 991px) {
 
+  .formacao {
+    background: none;
+  }
+
+
   .formacao img{
     display: none;
   }

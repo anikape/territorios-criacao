@@ -393,7 +393,9 @@ align-items: center;
 
 @media (max-width: 991px){
 
-
+  .quem,  .mercurio, .poc{
+    background: none;
+  }
   
   .quem img{
      display: none;
@@ -408,6 +410,8 @@ align-items: center;
     padding-left: 0;
     width: 100%;
   }
+
+
 
   .mercurio img{
     width: 100%;

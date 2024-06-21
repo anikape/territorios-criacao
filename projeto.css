@@ -380,6 +380,10 @@ button:hover {
 
 @media (max-width: 991px) {
 
+  .projeto{
+    background: none;
+  }
+
   .projeto img{
     display: none;
   }

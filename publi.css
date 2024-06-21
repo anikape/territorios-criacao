@@ -155,10 +155,6 @@ line-height: normal;
   
 }
 
-
-
-
-
 .content{
   margin-top: -1rem;
  padding-left: 2rem;
@@ -202,12 +198,6 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
-
-
-
-
-
 
 
 .information{
@@ -465,10 +455,11 @@ button:hover {
 }
 
 
-
-
-
 @media (max-width: 991px) {
+
+  .publicacao{
+    background: none;
+  }
 
   .publicacao img{
     display: none;
