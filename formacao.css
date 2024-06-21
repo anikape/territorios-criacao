@@ -574,6 +574,29 @@ button:hover {
     font-size: 18px;
   }
 
+  .formContact{
+    width: 100%;
+  }
+
+  .formContact h3{
+    font-size: 35px;
+    word-wrap: break-word;
+    width: 80%;
+  }
+
+  .formContact p, .formContact span {
+font-size: 30px;
+width: 90%;
+text-align: left;
+padding-top: 1rem;
+padding-bottom: 1rem;
+  }
+
+  .group{
+    width: 100%;
+   
+  }
+
 
   .information {
     width: 100%;
