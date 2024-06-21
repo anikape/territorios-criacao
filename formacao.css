@@ -225,6 +225,10 @@ text-decoration-line: underline;
   margin-top: 5em;
 }
 
+.imgMb{
+  display: none;
+}
+
 .footer {
   background: #2A2A2A;
   height: 709px;

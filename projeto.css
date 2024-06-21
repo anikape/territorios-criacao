@@ -173,7 +173,9 @@ text-decoration-line: underline;
   margin-top: 5em;
 }
 
-
+.imgMb{
+  display: none;
+}
 
 
 
