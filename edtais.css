@@ -82,7 +82,7 @@ padding-top: 45px;
   gap: 5rem;
 }
 
-.editalCard1 {
+/* .editalCard1 {
   background: #2A2A2A;
   background-image: url('assets/edital.png');
   background-repeat: no-repeat;
@@ -90,18 +90,10 @@ padding-top: 45px;
   width: 576px;
   height: 544px;
   position: relative;
-}
+} */
 
-.editalCard2 {
-  background: #2A2A2A;
-  background-image: url('assets/resultado.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 576px;
-  height: 544px;
-  position: relative;
-}
 
+/* 
 .editalLink {
   display: flex;
   text-decoration: none;
@@ -115,7 +107,7 @@ padding-top: 45px;
   position: absolute;
   bottom: 75px;
   left: 70px;
-}
+} */
 
 
 .agenda{
@@ -491,52 +483,55 @@ button:hover {
 
 
 
-
-
 @media (max-width: 991px) {
 
-  .editais{
+  .editais {
     background: none;
   }
 
-  .editais img{
+  .editais img {
     display: none;
   }
 
-  .editais div{
+  .editais div {
     margin-left: 0;
     width: 80%;
-        
   }
 
-  .editais p{
+  .editais p {
     padding-left: 0;
     padding-top: 2em;
     font-size: 20px;
     word-wrap: break-word;
     width: 100%;
-   
   }
 
   .editalContent {
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-   padding-top: 10rem;
-   
+    padding-top: 10rem;
+    width: 100%;
   }
 
   .editalCard1, .editalCard2 {
-    width: 90%;
-    background-color: none;
-    background-size: contain;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .editalCard1 img, .editalCard2 img{
+   
+    width: 300px;
   }
 
   .editalLink {
-  bottom: 35px;
-  left: 130px;
+    bottom: 35px;
+    left: 130px;
     text-align: center;
   }
+
   .cardsSection {
     grid-template-columns: 1fr;
     max-width: 100%;
@@ -580,16 +575,12 @@ button:hover {
     padding-top: 1rem;
   }
 
-
-
-
   footer {
     display: flex;
     flex-direction: column;
     height: 100vh;
     background: #2A2A2A;
   }
-
 
   .footer-container {
     display: flex;
@@ -615,7 +606,6 @@ button:hover {
   #formulario {
     background: #2A2A2A;
     margin-top: -2em;
-
   }
 
   .form-group {
@@ -639,7 +629,6 @@ button:hover {
 
   #copyright {
     background: #2A2A2A;
-
   }
 
   #copyright p {
@@ -647,3 +636,5 @@ button:hover {
   }
 
 }
+
+
