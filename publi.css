@@ -6,9 +6,10 @@
 
 
 .publicacao{
-  background-image: url('assets/vetor1.png');
+  background-image: url('assets/component49.png');
   background-repeat: no-repeat;
-  background-position: right;
+  background-size: 100% 100%;
+  /* background-position: right; */
   height: 761px;
   display: flex;
   justify-content: center;
