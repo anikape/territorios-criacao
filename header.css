@@ -42,7 +42,11 @@
 
 
 .navbar-toggler-icon {
-  color: rgba(251, 108, 4, 0.88) !important; /* Define a cor do ícone do menu hamburguer */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: transparent !important;
+ 
 }
 
 .navbar-nav {
