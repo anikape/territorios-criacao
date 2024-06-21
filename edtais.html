@@ -270,7 +270,7 @@
       <div class="footer-column" id="formulario">
         <h3>Formulário<span class="contatoSpan"> de contato</span> </h3>
 
-        <form class="form" action="#" method="POST">
+        <form class="form" id="contactForm">
           <div class="form-group">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required placeholder="Digite seu nome...">
@@ -284,11 +284,12 @@
             <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem..."></textarea>
           </div>
           <div class="form-group" id="buttons">
-            
             <button type="button" class="cancel" onclick="limparFormulario()">Cancelar</button>
             <button type="submit">Enviar</button>
           </div>
         </form>
+        <div id="formResponse" style="padding-top: 1em; margin: 0 auto;"></div>
+      </div>
 
 
       </div>

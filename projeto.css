@@ -8,7 +8,7 @@
 .projeto{
   background-image: url('assets/vetor1.png');
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center right;
   height: 761px;
   display: flex;
   justify-content: center;
