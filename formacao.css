@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 
-.formacao{
+.formacao {
   background-image: url('assets/vetor1.png');
   background-repeat: no-repeat;
   background-position: right;
@@ -17,75 +17,75 @@
 
 }
 
-.formacao img{
+.formacao img {
   width: 238px;
-height: 305px;
+  height: 305px;
 
 }
 
-.formacao div{
+.formacao div {
   margin-top: 1rem;
   margin-left: -5rem;
 }
 
-.formacao h1{
+.formacao h1 {
   color: rgba(251, 108, 4, 0.88);
 
-text-align: center;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
-font-size: 50px;
-font-style: normal;
-font-weight: 600;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Source Sans Pro";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
 }
 
-.spanText{
+.spanText {
   color: #3F3F3F;
-font-family: "Source Code Variable";
-font-size: 44px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+  font-family: "Source Code Variable";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
-.spanText2{
+.spanText2 {
   color: #3F3F3F;
-font-family: "Source Code Variable";
-font-size: 44px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-family: "Source Code Variable";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-.formacao p{
+.formacao p {
   color: #000;
-text-align: left;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 1009px;
-padding-left: 6rem;
-padding-top: 45px;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 1009px;
+  padding-left: 6rem;
+  padding-top: 45px;
 }
 
 
-.bolsistasTitle{
-  
+.bolsistasTitle {
+
   color: #2A2A2A;
-text-align: center;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Code Variable";
-font-size: 50px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Source Code Variable";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 
-.bolsistasSpan1{
+.bolsistasSpan1 {
   color: rgba(251, 108, 4, 0.88);
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -97,7 +97,7 @@ line-height: normal;
 }
 
 
-.bolsistasSpan2{
+.bolsistasSpan2 {
   color: #2A2A2A;
   font-family: "Source Code Variable";
   font-size: 50px;
@@ -122,7 +122,8 @@ line-height: normal;
   background: #fff;
 }
 
-.cardBolsa, .cardBolsa2 {
+.cardBolsa,
+.cardBolsa2 {
   background: #2A2A2A;
   background-repeat: no-repeat;
   display: flex;
@@ -140,7 +141,8 @@ line-height: normal;
   background-image: url('assets/Group 8.png');
 }
 
-.cardBolsa img, .cardBolsa2 img {
+.cardBolsa img,
+.cardBolsa2 img {
   width: 317px;
   height: 368px;
 }
@@ -165,11 +167,86 @@ line-height: normal;
   line-height: normal;
 }
 
+.formContact {
+  display: flex;
+  flex-direction: column;
+  width: 1238px;
+  height: 539px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.formContact h3 {
+  width: 910px;
+  color: #FB6C04;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.formContact p {
+  color: #2A2A2A;
+  font-family: "Source Code Variable";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+
+}
+
+
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  background: rgba(63, 63, 63, 0.00);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 60px;
+}
+
+
+
+.group input {
+  background: transparent;
+  outline: none;
+  height: 56px;
+  width: 159px;
+}
+
+
+
+#groupBtn {
+  background-color: #5C0CCB;
+  height: 60px;
+  width: 159px;
+  border: none;
+  outline: none;
+}
+
+.formContact span {
+  color: #2A2A2A;
+  font-family: "Source Code Variable";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
 
 
 
-.information{
+.information {
   margin-top: 5rem;
   background-image: url('assets/bgRoxo.png');
   background-repeat: no-repeat;
@@ -183,38 +260,38 @@ line-height: normal;
   margin-bottom: 5rem;
 }
 
-.information p{
+.information p {
   color: #000;
   width: 717px;
   color: #FFF;
-padding-right: 3rem;
-text-align: right;
-font-family: "Source Code Variable";
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-  
+  padding-right: 3rem;
+  text-align: right;
+  font-family: "Source Code Variable";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
 }
 
-.spanP1{
+.spanP1 {
   color: #FB6C04;
-font-family: "Source Code Variable";
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration-line: underline;
+  font-family: "Source Code Variable";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
 }
 
-.spanP2{
+.spanP2 {
   color: #FFF;
-font-family: "Source Code Variable";
-font-size: 24px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-text-decoration-line: underline;
+  font-family: "Source Code Variable";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: underline;
 }
 
 .patrocinio {
@@ -225,7 +302,7 @@ text-decoration-line: underline;
   margin-top: 5em;
 }
 
-.imgMb{
+.imgMb {
   display: none;
 }
 
@@ -437,24 +514,25 @@ button:hover {
   }
 
 
-  .formacao img{
+  .formacao img {
     display: none;
   }
 
-  .formacao div{
+  .formacao div {
     margin-left: 0;
     width: 80%;
-        
+
   }
 
-  .formacao p{
+  .formacao p {
     padding-left: 0;
     padding-top: 2em;
     font-size: 23px;
     word-wrap: break-word;
     width: 100%;
-   
+
   }
+
   .bolsas {
     grid-template-columns: 1fr;
     max-width: 100%;
@@ -468,14 +546,17 @@ button:hover {
     margin-bottom: 1rem;
   }
 
-  .cardBolsa, .cardBolsa2 {
+  .cardBolsa,
+  .cardBolsa2 {
     width: 100%;
     height: auto;
-    padding-top: 56.25%; /* 16:9 ratio */
+    padding-top: 56.25%;
+    /* 16:9 ratio */
     position: relative;
   }
 
-  .cardBolsa img, .cardBolsa2 img {
+  .cardBolsa img,
+  .cardBolsa2 img {
     position: absolute;
     top: 0;
     left: 0;
@@ -493,29 +574,55 @@ button:hover {
     font-size: 18px;
   }
 
+  .formContact{
+    width: 100%;
+  }
 
-  .information{
+  .formContact h3{
+    font-size: 35px;
+    word-wrap: break-word;
+    width: 80%;
+  }
+
+  .formContact p, .formContact span {
+font-size: 30px;
+width: 90%;
+text-align: left;
+padding-top: 1rem;
+padding-bottom: 1rem;
+  }
+
+  .group{
+    width: 100%;
+   
+  }
+
+
+  .information {
     width: 100%;
     background-image: url('assets/infoBgMb.png');
-  
-    }
-  
-    .information p, .spanP1, .spanP2, .information img{
-      display: none;
-    }
 
-    .patrocinio{
-      height: auto;
-    }
-  
-    .imgDesk{
-      display: none;
-    }
-  
-    .imgMb{
-        display: flex;
-    }
-  
+  }
+
+  .information p,
+  .spanP1,
+  .spanP2,
+  .information img {
+    display: none;
+  }
+
+  .patrocinio {
+    height: auto;
+  }
+
+  .imgDesk {
+    display: none;
+  }
+
+  .imgMb {
+    display: flex;
+  }
+
 
 
 
