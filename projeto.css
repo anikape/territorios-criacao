@@ -145,6 +145,10 @@ line-height: normal;
   
 }
 
+.information a{
+  text-decoration: none;
+}
+
 .spanP1{
   color: #FB6C04;
 font-family: "Source Code Variable";

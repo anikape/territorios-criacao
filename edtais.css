@@ -9,13 +9,16 @@
   background-image: url('assets/component49.png');
   background-repeat: no-repeat;
   background-position: right;
-  height: 761px;
+  background-size: contain;
+  height: 981px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-
+  
 }
+
+
 
 .editais img{
   width: 238px;
@@ -26,6 +29,7 @@ height: 305px;
 .editais div{
   margin-top: 16rem;
   margin-left: -5rem;
+ 
 }
 
 .editais h1{
@@ -152,11 +156,11 @@ text-align: center;
 /* .cardsSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: space-around;
+  gap: 15rem;
   margin: 2rem auto;
-  max-width: calc(2 * 585px + 2rem);
-} */
+  max-width: calc(2 * 585px + 2rem); 
+}*/
 
 .card {
 
