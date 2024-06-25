@@ -12,7 +12,7 @@
   background-image: url('assets/grafic.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 746px;
+  height: 981px;
 
 }
 
@@ -138,6 +138,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  gap: 20px;
 }
 
 .card-link {

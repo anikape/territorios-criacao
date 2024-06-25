@@ -9,13 +9,17 @@
   background-image: url('assets/component49.png');
   background-repeat: no-repeat;
   background-position: right;
-  height: 761px;
+  background-size: contain;
+  height: 981px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  
 
 }
+
+
 
 .editais img{
   width: 238px;
@@ -23,9 +27,12 @@ height: 305px;
 
 }
 
+
+
 .editais div{
   margin-top: 16rem;
   margin-left: -5rem;
+ ,
 }
 
 .editais h1{
