@@ -6,6 +6,8 @@
 
 .navbar {
   background: rgba(0, 0, 0, 0.86);
+  width: 1440px;
+  height: 66px;
 }
 
 .navLogo img {
@@ -51,13 +53,18 @@
 
 .navbar-nav {
   display: flex;
-  justify-content: flex-end; /* Alinha os itens à direita */
-  gap: 20px;
+  justify-content: flex-end; 
+  /* gap: 20px; */
   align-items: center;
-  margin-left: 30rem; /* Aplicar apenas para telas grandes */
+  margin-left: 10rem; /* Aplicar apenas para telas grandes */
 }
 
-@media (max-width: 991px) {
+/*CELULAR E TABLET*/
+@media ( (min-width:768px) and (max-width: 800px)) {
+.navbar{
+  width: 100%;
+}
+
   .navbar-nav {
     margin-left: 0; /* Remover margem para dispositivos móveis */
     flex-direction: column; /* Colocar itens em coluna para dispositivos móveis */
@@ -66,6 +73,8 @@
 
   .collapse {
     width: 100%; /* Garantir que o menu colapsado ocupe toda a largura */
+    background: rgba(0, 0, 0, 0.86);
+    z-index: 10;
   }
 }
 
@@ -73,3 +82,16 @@
 .nav-item {
   margin-left: 20px; /* Ajusta o espaçamento entre os itens */
 }
+
+/*Grande telas*/
+@media  (min-width:1441px){
+  .navbar{
+    width: 100%;
+  }
+
+
+}
+
+
+
+ 
