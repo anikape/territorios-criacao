@@ -1,6 +1,6 @@
 .navbar {
   background: rgba(0, 0, 0, 0.86);
-  width: 425px;
+  width: 100%;
 
 }
 
@@ -37,6 +37,11 @@
   justify-content: center;
   align-items: center;
   color: transparent !important;
+}
+
+.navbar-toggler:hover{
+  border-color: rgba(251, 108, 4, 0.88);
+  background: none;
 }
 
 .navbar-nav {

@@ -53,6 +53,7 @@
   align-items: center;
   height: 900px;
   padding: 1rem;
+  width: 100%;
 }
 
 .bemvindo h3 {
@@ -428,5 +429,4 @@
   .imgMb{
     display:none;
 
-
-}
+}}
