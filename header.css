@@ -1,12 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   background: rgba(0, 0, 0, 0.86);
+  width: 425px;
+
 }
+
 
 .navLogo img {
   width: 32px;
@@ -15,61 +12,70 @@
 
 .navLogo {
   color: rgba(251, 108, 4, 0.88);
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 15px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 
 .nav-link {
   color: #FFF;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", monospace;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: rgba(251, 108, 4, 0.88);
 }
 
 .navbar-toggler {
-  border-color: rgba(251, 108, 4, 0.88); /* Altera a cor da borda do botão */
+  border-color: rgba(251, 108, 4, 0.88);
 }
 
-
-
 .navbar-toggler-icon {
- display: flex;
- justify-content: center;
- align-items: center;
- color: transparent !important;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent !important;
 }
 
 .navbar-nav {
   display: flex;
-  justify-content: flex-end; /* Alinha os itens à direita */
+  justify-content: flex-start;
   gap: 20px;
-  align-items: center;
-  margin-left: 30rem; /* Aplicar apenas para telas grandes */
+  align-items: start;
+  margin-left:  1rem;
 }
 
-@media (max-width: 991px) {
-  .navbar-nav {
-    margin-left: 0; /* Remover margem para dispositivos móveis */
-    flex-direction: column; /* Colocar itens em coluna para dispositivos móveis */
-    align-items: flex-start; /* Alinhar itens à esquerda no menu colapsado */
-  }
 
-  .collapse {
-    width: 100%; /* Garantir que o menu colapsado ocupe toda a largura */
+/*Resposividade*/
+
+
+@media screen and (min-width:426px) and (max-width:768px) {
+
+  .navbar{
+   width: 100%;
+   
   }
+  
 }
 
-/* Estilo personalizado para os itens da lista */
-.nav-item {
-  margin-left: 20px; /* Ajusta o espaçamento entre os itens */
+
+@media screen and (min-width:769px) and (max-width:1440px){
+  
+  .navbar{
+    width: 100%;
+   
+  }
+
+}
+
+
+@media screen and (min-width:1441px) and (max-width:1920px){
+
+  .navbar{
+    width: 100%;
+  }
+
+
 }

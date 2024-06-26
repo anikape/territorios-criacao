@@ -7,6 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
 </head>
 <body>
   <header>
@@ -63,164 +64,10 @@
       </div>
     </nav>
   </header>
-
-  <main>
-
-    <section class="criacao">
-
-      <div class="container">
-      
-    </div>
-
-    <h1 class="h1desktop">Territórios</h1>
-     <h1 id="h1mb">Terri<br/>tórios</h1>
-      <h2>de Criação</h2>
-      <p>Programação de Publicação  de Pesquisas e Concessão  de Bolsas para  Mobilidade Formativa</p>
-    </section>
-
-
-    <section class="bemvindo">
-
-      <h3>Bem-vindo ao <span class="span1">Territórios</span> <span class="span2">de Criação</span>,  onde a arte e a cultura se fortalecem em todo o Ceará, em conexão com o Brasil e o mundo!
-
-      </h3>
-
-
-    </section>
-
-
-    <section class="iniciativas">
-      <p>
-        <span class="iniciativa1">Conheça</span> <span class="iniciativa2">Nossa iniciativa</span>  e participe dos nosso Eventos
-      </p>
-
-      <div class="cards">
-        <a href="projeto.html" class="card-link">
-          <img src="assets/projeto.png" alt="Projeto">
-        </a>
-        <a href="edtais.html" class="card-link">
-          <img src="assets/editoriais.png" alt="Editoriais">
-        </a>
-        <a href="formacao.html" class="card-link">
-          <img src="assets/bolsistas.png" alt="Formação">
-        </a>
-        <a href="publicacao.html" class="card-link">
-          <img src="assets/publi.png" alt="Publicações">
-        </a>
-       
-      </div>
-    </section>
-
-    <section class="patrocinio">
-
-      <figure>
-        <img class="imgDesk"
-        src="assets/patrocinio.png" alt="Logo dos patrocinadores" srcset="">
-      </figure>
-
-      <figure>
-        <img src="assets/component42.png" alt="" class="imgMb">
-      </figure>
-
-     
-
-
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-column">
-        <ul class="list">
-          <h3>Menu</h3>
-          <li class="footer-link" id="link1">
-            <a href="index.html">
-              <img src="assets/ellipsepng" alt="Ícone Página Inicial">
-              Página Inicial
-            </a>
-          </li>
-          <li class="footer-link">
-            <a href="quemsomos.html">Quem Somos</a>
-          </li>
-          <li class="footer-link">
-            <a href="projeto.html">Projeto</a>
-          </li>
-          <li class="footer-link">
-            <a href="edtais.html">Editais</a>
-          </li>
-          <li class="footer-link">
-            <a href="formacao.html">Formação</a>
-          </li>
-          <li class="footer-link">
-            <a href="publicacao.html">Publicações</a>
-          </li>
-        </ul>
-
-        <div class="info">
-          <p> <span>Preencha o Formulário</span> <span id="infospan"> se Inscrever e</span> Receber Atualizações por E-mail</p>
-
-        </div>
-      </div>
-      <div class="footer-column" id="col2">
-         <ul class="list2">
-          <h3>Contatos</h3>
-          <li class="footer-link" id="link1">
-            <a href="https://www.youtube.com/@mercuriogestaoproducaoeaco6626" target="_blank">
-              <img src="assets/youtube2.png" alt="Ícone Youtube">
-              Visite nosso canal no YouTube
-            </a>
-          </li>
-          <li class="footer-link" id="link1">
-            <a href="https://www.instagram.com/territoriosdecriacao/" target="_blank">
-              <img src="assets/insta2.png" alt="Ícone Página Inicial">
-              territoriosdecriacao
-            </a>
-          </li>
-          <li class="footer-link" id="link1">
-            <a href="mailto:territoriosdecriacao@gmail.com">
-              <img src="assets/mail2.png" alt="Ícone Página Inicial">
-              territoriosdecriacao@gmail.com
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-column" id="formulario">
-        <h3>Formulário<span class="contatoSpan"> de contato</span> </h3>
-      
-        <form class="form" id="contactForm">
-          <div class="form-group">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome...">
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Digite seu E-mail">
-          </div>
-          <div class="form-group">
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem..."></textarea>
-          </div>
-          <div class="form-group" id="buttons">
-            <button type="button" class="cancel" onclick="limparFormulario()">Cancelar</button>
-            <button type="submit">Enviar</button>
-          </div>
-        </form>
-        <div id="formResponse" style="padding-top: 1em; margin: 0 auto;"></div>
-      </div>
-
-
-      <div class="footer-column footer-column-right">
-        <figure>
-          <img src="assets/footerLogo.png" alt="Logo do Footer">
-        </figure>
-      </div>
-    </div>
-
-    <div id="copyright">
-      <p>&copy; <span id="year"></span> Territórios de Criação. Todos os direitos reservados.</p>
-    </div>
-  </footer>
   
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
