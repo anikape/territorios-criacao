@@ -1,0 +1,195 @@
+.criacao {
+  background: rgba(0, 0, 0, 0.86);
+  background-image: url('assets/bgMobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+
+}
+
+.criacao h1 {
+  display: none;
+  color: #FB6C04;
+  font-family: "Source Code Pro";
+  font-size: 145px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 15rem;
+  padding-left: 0.5em;
+}
+
+#h1mb {
+  display: flex;
+  font-size: 70px;
+  padding-left: 0.2em;
+  font-weight: 800;
+  width: 252px;
+}
+
+.criacao h2 {
+  color: #FFF;
+  font-family: Source Sans Pro ExtraLight, sans-serif;
+  font-size: 50px;
+  padding-left: 0.2em;
+}
+
+.criacao p {
+  color: #FFF;
+  font-family: "Source Code Variable";
+  font-size: 20px;
+  padding-left: 0.2em;
+  font-weight: 500;
+  width: 345px;
+  padding-left: 0.5em;
+  height: 100px;
+}
+
+.bemvindo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 900px;
+  padding: 1rem;
+}
+
+.bemvindo h3 {
+  color: #000;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Source Sans Pro";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 1203px;
+}
+
+.span1 {
+  color: rgba(251, 108, 4, 0.88);
+  font-family: "Source Sans Pro";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.span2 {
+  color: #2A2A2A;
+  font-family: "Source Code Variable";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+
+
+
+
+/*Celular*/
+@media screen and (min-width:426px) and (max-width:768px){
+
+  .criacao{
+    background-image: url('assets/bgIndex.png'); 
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+
+  }
+
+  
+  #h1mb{
+    display: none;
+  }
+
+  .criacao h1{
+    display: flex;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top:17rem;
+    padding-left: 0;
+    
+  }
+
+}
+
+
+/*Tablet*/
+@media screen and (min-width:769px) and (max-width:1440px){
+
+  .criacao{
+    background-image: url('assets/bgIndex.png'); 
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+  #h1mb{
+    display: none;
+  }
+
+  .criacao h1{
+    display: flex;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top:17rem;
+    padding-left: 0;
+    
+  }
+
+  .bemvindo{
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (min-width:1441px) and (max-width:1920px){
+
+  .criacao{
+    background-image: url('assets/bgLarge.png');
+    height: 1080px;
+  
+  }
+
+  #h1mb{
+    display: none;
+  }
+
+  .criacao h1{
+    display: flex;
+    font-size: 145px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 20rem;
+    padding-left: 0.5em;
+  }
+
+  .criacao h2 {
+    color: #FFF;
+    font-family: Source Sans Pro ExtraLight, sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    padding-left: 0.8em;
+  }
+
+  .criacao p {
+    color: #FFF;
+    font-family: "Source Code Variable";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 555px;
+    height: 526px;
+    padding-top: 1em;
+    padding-left: 2.5em;
+  }
+
+}
