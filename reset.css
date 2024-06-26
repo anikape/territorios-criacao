@@ -5,3 +5,184 @@
   text-decoration: none;
   list-style: none;
 }
+
+a{
+  text-decoration: none;
+}
+
+
+/*FOOTER REPLICANDO NAS PAG*/
+.footer {
+  background: #2A2A2A;
+  height: 140vh;
+  width: 100%;
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+.footer-column h3 {
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-weight: 700;
+  color: #FB6C04;
+  padding-top: 60px;
+}
+.footer-link{
+  padding-top: 1rem;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  /* Permite que os itens sejam flexíveis */
+  align-items: center;
+  /* Alinha os itens verticalmente */
+}
+
+.info {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  width: 90%;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.info span {
+  color: #FB6C04;
+
+  font-family: "Source Sans Pro";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+#infospan {
+  color: #FFF;
+  font-family: "Source Code Variable";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;}
+
+
+.list {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list2 {
+  width: 300px;
+}
+
+.list2 ul li {
+  align-items: center;
+}
+
+
+
+.contatoSpan {
+  color: #FFF;
+  font-family: "Source Code Variable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form-group{
+  align-items: center;
+  padding: 0.5rem 0 0 2rem;
+  width: 100%;
+  
+  
+}
+
+#formulario{
+  padding-left: 1rem;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  background: #FFF;
+  width: 90%;
+  height: 50px;
+  color: rgba(63, 63, 63, 0.65);
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.5em;
+}
+
+.form textarea {
+  border: none;
+  outline: none;
+  width: 90%;
+  height: 100px;
+  background: #FFF;
+  color: rgba(63, 63, 63, 0.65);
+  padding: 0.5em;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
+.form-group button {
+  width: 150px;
+  height: 43px;
+  justify-content:center;
+  border: none;
+
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+
+}
+
+button:hover {
+  background-color: #5C0CCB;
+  color: #FFF
+}
+
+
+
+.footer-column-right{
+  display: none;
+}
+
+#copyright {
+  background: #2A2A2A;
+
+}
+
+#copyright p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
