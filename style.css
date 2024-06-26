@@ -1,61 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .criacao {
   background: rgba(0, 0, 0, 0.86);
-  background-image: url('assets/grafic.png');
+  background-image: url('assets/bgMobile.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 981px;
+  height: 900px;
+  width: 100%;
 
 }
 
-
 .criacao h1 {
+  display: none;
   color: #FB6C04;
   font-family: "Source Code Pro";
   font-size: 145px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  padding-top: 7.75rem;
+  padding-top: 15rem;
   padding-left: 0.5em;
 }
 
 #h1mb {
-  display: none;
+  display: flex;
+  font-size: 70px;
+  padding-left: 0.2em;
+  font-weight: 800;
+  width: 252px;
 }
 
 .criacao h2 {
   color: #FFF;
   font-family: Source Sans Pro ExtraLight, sans-serif;
-  font-size: 96px;
-  font-style: normal;
-  font-weight: 200;
-  line-height: normal;
-  padding-left: 0.8em;
+  font-size: 50px;
+  padding-left: 0.2em;
 }
 
 .criacao p {
   color: #FFF;
   font-family: "Source Code Variable";
-  font-size: 36px;
-  font-style: normal;
+  font-size: 20px;
+  padding-left: 0.2em;
   font-weight: 500;
-  line-height: normal;
-  width: 555px;
-  height: 526px;
-  padding-top: 1em;
-  padding-left: 2.5em;
+  width: 345px;
+  padding-left: 0.5em;
+  height: 100px;
 }
-
-/*sessão 2*/
 
 .bemvindo {
   display: flex;
@@ -63,9 +52,8 @@
   text-align: center;
   align-items: center;
   height: 900px;
-
-
-
+  padding: 1rem;
+  width: 100%;
 }
 
 .bemvindo h3 {
@@ -98,29 +86,36 @@
   line-height: normal;
 }
 
-
-/*Sessão 3*/
-
 .iniciativas {
-  background-image: url('assets/bgIniciativas.png');
+  background-image: url('assets/BGs Territórios de Craição-04 3.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 611px;
+  height: 612px;
   width: 100%;
 }
 
 .iniciativas p {
+  display: none;
   color: #FFF;
   font-family: "Source Sans Pro";
   font-size: 40px;
   font-weight: 600;
   padding-top: 70px;
-  width: 870px;
-  text-align: center;
+   text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que os cards quebrem linha */
+  justify-content: space-around;
+  /* Centraliza os cards horizontalmente */
+
+
 }
 
 .iniciativa1 {
@@ -134,39 +129,9 @@
   font-weight: 300;
 }
 
-.cards {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  gap: 20px;
-}
-
-.card-link {
-  display: block;
-  overflow: hidden;
-  position: relative;
-  width: 203px;
-  /* Defina o tamanho do card conforme necessário */
-  height: 283px;
-  /* Defina o tamanho do card conforme necessário */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-link:hover {
-  transform: translateY(-5px);
-  /* Move o card para cima */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  /* Adiciona uma sombra mais pronunciada */
-
-}
-
-
-
 .card-link img {
-  width: 100%;
-  height: 100%;
+  width: 147px;
+  height: 205px;;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -174,352 +139,294 @@
 .card-link:hover img {
   transform: scale(1.1);
   /* Aumenta ligeiramente a imagem no hover */
+  transform: translateY(-5px);
+  /* Move o card para cima */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Adiciona uma sombra mais pronunciada */
 }
 
-.patrocinio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 252px;
-  margin-top: 5em;
+.imgDesk{
+  display: none;
+
 }
 
 .imgMb{
-  display: none;
-}
-
-.footer {
-  background: #2A2A2A;
-  height: 709px;
-  width: 100%;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.footer-container {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(4, 1fr);
-  /* 3 colunas de largura igual */
-  gap: 15px;
-  /* Espaçamento entre as colunas */
-  /* max-width: 1200px; */
-  /* Largura máxima do footer */
+  display: flex;
   margin: 0 auto;
-  /* Centraliza o footer na página */
-  padding-left: 10rem;
 }
 
 
 
-.footer-column {
-  padding: 0 15px;
-  /* Espaçamento interno das colunas */
-  /* Ajuste de margem para a esquerda */
-
-}
-
-#col2 {
-  margin-left: -10rem;
-}
-
-.footer-column h3 {
-  font-family: "Source Sans Pro";
-  font-size: 32px;
-  font-weight: 700;
-  color: #FB6C04;
-  padding-top: 60px;
-}
-
-.footer-column-right {
-  display: flex;
-  justify-self: end;
-  /* Alinha à direita */
-  margin-top: 2rem;
-
-}
-
-.list {
-  width: 180px;
-  display: flex;
-  flex-direction: column;
-}
-
-.list2 {
-  width: 300px;
-}
-
-.list2 ul li {
-  align-items: center;
-}
-
-.footer-link {
-  list-style: none;
-  padding-top: 1rem;
-}
-
-.footer-link a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Source Sans Pro";
-  font-size: 16px;
-  font-weight: 400;
-  display: flex;
-  /* Permite que os itens sejam flexíveis */
-  align-items: center;
-  /* Alinha os itens verticalmente */
-}
-
-.footer-link img {
-  margin-right: 10px;
-  /* Espaçamento entre a imagem e o texto */
-}
-
-.info span {
-  color: #FB6C04;
-
-  font-family: "Source Sans Pro";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-#infospan {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-}
-
-.info {
-  color: #FFF;
-  font-family: "Source Sans Pro";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  width: 567px;
-  text-align: left;
-  padding: 1.2rem;
-}
 
 
-.contatoSpan {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 
+/*Tablet*/
+@media screen and (min-width:426px) and (max-width:768px){
 
-.form input {
-  border: none;
-  outline: none;
-  background: #FFF;
-  width: 456px;
-  height: 50px;
-  color: rgba(63, 63, 63, 0.65);
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  padding: 0.5em;
-}
+  .criacao{
+    background-image: url('assets/bgIndex.png'); 
+    background-repeat: no-repeat;
+    padding-left: 2rem;
 
-.form textarea {
-  border: none;
-  outline: none;
-  width: 456px;
-  height: 100px;
-  background: #FFF;
-  color: rgba(63, 63, 63, 0.65);
-  padding: 0.5em;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.form-group {
-  padding-top: 0.9em;
-}
-
-.form-group button {
-  width: 150px;
-  height: 43px;
-  justify-content: flex-end;
-  border: none;
-
-}
-
-#buttons {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-
-}
-
-button:hover {
-  background-color: #5C0CCB;
-  color: #FFF
-}
-
-#copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-#copyright p {
-  color: #FFF;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-
-@media (max-width: 768px) {
-
-  .criacao {
-    max-width: 100%;
   }
 
-  .h1desktop {
+  
+  #h1mb{
     display: none;
   }
 
-  #h1mb {
-   display: flex;
-   font-size: 70px;
-    padding-left: 0.2em;
+  .criacao h1{
+    display: flex;
+    font-size: 80px;
+    font-style: normal;
     font-weight: 800;
-    width: 252px;
-  }
-
-  .criacao h2 {
-    font-size: 50px;
-    padding-left: 0.2em;
-  }
-
-  .criacao p {
-    font-size: 20px;
-    padding-left: 0.2em;
-    font-weight: 500;
-    width: 345px;
-    padding-left: 0.5em;
-    height: 100px;
-  }
-
-  .bemvindo{
-width: 90%;
-margin: 0 auto;
+    line-height: normal;
+    padding-top:17rem;
+    padding-left: 0;
+    
   }
 
   .iniciativas p {
-    display: none;
-  }
-
-  .cards {
-    flex-wrap: wrap;
-    /* Permite que os cards quebrem linha */
-    justify-content: space-around;
-    /* Centraliza os cards horizontalmente */
-
-  }
-
-  .card-link {
-    background-image: url('assets/cardMb.png');
-    max-width: 147px;
-    /* Define a largura máxima dos cards */
-    height: 205px;
-    margin-bottom: 20px;
-    /* Espaçamento entre os cards */
-    gap: 20rem;
-  }
-
-  .patrocinio{
-    height: auto;
-  }
-
-  .imgDesk{
-    display: none;
-  }
-
-  .imgMb{
-      display: flex;
-  }
-
-  footer {
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background: #2A2A2A;
-  }
-
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-  }
-
-  #col2 {
-    margin-left: 0;
-    margin-top: -1em;
-    background: #2A2A2A;
-  }
-
-  .info {
-    font-size: 25px;
-    width: 90%;
+    color: #FFF;
+    font-family: "Source Sans Pro";
   
   }
 
+  .iniciativa1 {
+    color: #FB6C04;
+  }
+  
+  .iniciativa2 {
+    color: white;
+    font-size: 40px;
+    font-family: Source Code Variable;
+    font-weight: 300;
+  }
 
 
-  .footer-column-right {
+
+  
+
+}
+
+
+/*PC tela pequena*/
+@media screen and (min-width:769px) and (max-width:1440px){
+
+  .criacao{
+    background-image: url('assets/bgIndex.png'); 
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+  #h1mb{
     display: none;
   }
 
-  #formulario {
-    background: #2A2A2A;
-    margin-top: -2em;
-
-  }
-
-  .form-group {
+  .criacao h1{
     display: flex;
-    flex-direction: column;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top:17rem;
+    padding-left: 0;
+    
   }
 
-  .form input,
-  .form textarea {
-    width: 96%;
-  }
-
-  #buttons {
-    display: flex;
-    justify-content: flex-start;
+  .bemvindo{
     width: 100%;
-    flex-direction: row;
-    padding-bottom: 1.5em;
-    gap: 2em;
   }
 
-  #copyright {
-    background: #2A2A2A;
-
+  .iniciativas{
+    background-image: url('assets/bgIniciativas.png');
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    justify-content: center;
   }
 
-  #copyright p {
-    font-size: 12px;
+  
+.iniciativas p {
+  display: flex;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  text-align: center;
+  padding-top: 2rem;
+  margin-left: 2rem;
+  width: 700px;
+  
+
+}
+
+  .iniciativa1 {
+    color: #FB6C04;
+  }
+  
+  .iniciativa2 {
+    color: white;
+    font-size: 40px;
+    font-family: Source Code Variable;
+    font-weight: 300;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* Permite que os cards quebrem linha */
+    /* justify-content: space-around; */
+    /* Centraliza os cards horizontalmente */
+    height: 800px;
+    width: 90%;
+  }
+
+  .card-link img{
+    width: 100%;
+
+}
+
+  .card-link img{
+    width: 90%;
+  }
+
+  .patrocinio{
+    display: flex;
+    width: 100%;
+  }
+
+  .imgDesk{
+    display:flex;
+  
+  }
+  
+  .imgMb{
+    display:none;
+
   }
 
 }
+
+/*Grandes telas*/
+
+@media screen and (min-width:1441px) and (max-width:1920px){
+
+  .criacao{
+    background-image: url('assets/bgLarge.png');
+    height: 1080px;
+  
+  }
+
+  #h1mb{
+    display: none;
+  }
+
+  .criacao h1{
+    display: flex;
+    font-size: 145px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 20rem;
+    padding-left: 0.5em;
+  }
+
+  .criacao h2 {
+    color: #FFF;
+    font-family: Source Sans Pro ExtraLight, sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    padding-left: 0.8em;
+  }
+
+  .criacao p {
+    color: #FFF;
+    font-family: "Source Code Variable";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 550px;
+    height: 526px;
+    padding-top: 1em;
+    padding-left: 2.5em;
+  }
+
+  .iniciativas{
+    background-image: url('assets/bgIniciativas.png');
+    
+  }
+
+  .iniciativas p {
+    display: block;
+    /* flex-direction: column; */
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    padding-top: 5rem;
+    width: 870px;
+    text-align: center !important;
+  }
+
+
+  .iniciativa1 {
+   
+    color: #FB6C04;
+  }
+  
+  .iniciativa2 {
+    
+    color: white !important;
+    font-size: 40px;
+    font-family: Source Code Variable;
+    font-weight: 300;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 611px;
+  }
+
+  .card-link {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 233px;
+    /* Defina o tamanho do card conforme necessário */
+    height: 283px;
+    /* Defina o tamanho do card conforme necessário */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-top: 5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .patrocinio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 252px;
+    margin-top: 5em;
+  }
+
+ 
+  .imgDesk{
+    display:flex;
+  
+  }
+  
+  .imgMb{
+    display:none;
+
+}}
