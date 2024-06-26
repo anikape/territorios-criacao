@@ -84,6 +84,70 @@
   line-height: normal;
 }
 
+.iniciativas {
+  background-image: url('assets/BGs Territórios de Craição-04 3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 612px;
+  width: 100%;
+}
+
+.iniciativas p {
+  display: none;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 70px;
+   text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que os cards quebrem linha */
+  justify-content: space-around;
+  /* Centraliza os cards horizontalmente */
+
+
+}
+
+
+
+
+
+.iniciativa1 {
+  color: #FB6C04;
+}
+
+.iniciativa2 {
+  color: white;
+  font-size: 40px;
+  font-family: Source Code Variable;
+  font-weight: 300;
+}
+
+.card-link img {
+  width: 147px;
+  height: 205px;;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-link:hover img {
+  transform: scale(1.1);
+  /* Aumenta ligeiramente a imagem no hover */
+  transform: translateY(-5px);
+  /* Move o card para cima */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Adiciona uma sombra mais pronunciada */
+}
+
+
 
 
 
@@ -112,6 +176,24 @@
     padding-top:17rem;
     padding-left: 0;
     
+  }
+
+  .iniciativas p {
+    display: flex;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+  
+  }
+
+  .iniciativa1 {
+    color: #FB6C04;
+  }
+  
+  .iniciativa2 {
+    color: white;
+    font-size: 40px;
+    font-family: Source Code Variable;
+    font-weight: 300;
   }
 
 }
@@ -144,8 +226,63 @@
     width: 100%;
   }
 
+  .iniciativas{
+    background-image: url('assets/bgIniciativas.png');
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  
+.iniciativas p {
+  display: flex;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  text-align: center;
+  padding-top: 2rem;
+  margin-left: 2rem;
+  width: 700px;
+  
+  
+  
 
 }
+
+  .iniciativa1 {
+    color: #FB6C04;
+  }
+  
+  .iniciativa2 {
+    color: white;
+    font-size: 40px;
+    font-family: Source Code Variable;
+    font-weight: 300;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* Permite que os cards quebrem linha */
+    /* justify-content: space-around; */
+    /* Centraliza os cards horizontalmente */
+    height: 800px;
+    width: 90%;
+  }
+
+  .card-link img{
+    width: 100%;
+
+}
+
+  .card-link img{
+    width: 90%;
+  }
+
+}
+
+/*Grandes telas*/
 
 @media screen and (min-width:1441px) and (max-width:1920px){
 
@@ -186,10 +323,68 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 555px;
+    width: 550px;
     height: 526px;
     padding-top: 1em;
     padding-left: 2.5em;
+  }
+
+  .iniciativas{
+    background-image: url('assets/bgIniciativas.png');
+    
+  }
+
+  .iniciativas p {
+    display: block;
+    /* flex-direction: column; */
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    padding-top: 5rem;
+    width: 870px;
+    text-align: center !important;
+  }
+
+
+  .iniciativa1 {
+   
+    color: #FB6C04;
+  }
+  
+  .iniciativa2 {
+    
+    color: white !important;
+    font-size: 40px;
+    font-family: Source Code Variable;
+    font-weight: 300;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 611px;
+  }
+
+  .card-link {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 233px;
+    /* Defina o tamanho do card conforme necessário */
+    height: 283px;
+    /* Defina o tamanho do card conforme necessário */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-top: 5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
   }
 
 }
