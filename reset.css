@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -6,8 +8,21 @@
   list-style: none;
 }
 
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url('./fonts/MinhaFonte.woff2') format('woff2'),
+       url('./fonts/MinhaFonte.woff') format('woff'),
+       url('./fonts/MinhaFonte.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MinhaFonte', sans-serif;
+}
+
 html, body {
-	width: 100%;
+	max-width: 100%;
 	height: 100%;}
 
 /*estilo do scroll*/
@@ -202,6 +217,7 @@ align-items: flex-start;
 
   .footer{
     height: 769px;
+    max-width: 1440px;
   }
 
 
@@ -212,6 +228,7 @@ align-items: flex-start;
      padding-left: 0;
      align-items: stretch;
      margin-top: 5rem;
+     max-width: 1440px;
   }
 
   .info span {
@@ -385,7 +402,7 @@ button:hover {
     align-items: stretch;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 6.7rem;
+    padding-left: 1rem;
     padding-right: 10.9rem;
     max-width: 100%;
     flex-wrap: nowrap;
@@ -403,7 +420,7 @@ button:hover {
     justify-content: flex-end;
     align-items: center;
     margin-top: 2rem;
-    margin-right: 0;
+    margin-right: -10rem;
   }
 
   .footer-column h3{
@@ -431,7 +448,7 @@ button:hover {
 
   .form-group input,
   .form-group textarea {
-    width:550px;
+    width:450px;
   }
 
   #formResponse {
