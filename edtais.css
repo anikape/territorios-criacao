@@ -1,94 +1,79 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-	width: 100%;
-	height: 100%;}
-
-.editais{
-  background-image: url('assets/component49.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-  height: 981px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+html, body{
   width: 100%;
-  
 }
-
-
 
 .editais img{
-  width: 238px;
-height: 305px;
-
+  display: none;
 }
 
-.editais div{
-  margin-top: 16rem;
+
+.editais div {
+  margin-top: 1rem;
   margin-left: -5rem;
- 
 }
 
-.editais h1{
+.editais h1 {
   color: rgba(251, 108, 4, 0.88);
 
-text-align: center;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
-font-size: 50px;
-font-style: normal;
-font-weight: 600;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  width: 450px;
+  padding-left: 8rem;
 }
 
-.spanText{
+.spanText {
   color: #3F3F3F;
-font-family: "Source Code Variable";
-font-size: 44px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+  font-family: "Source Code Variable";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
-.spanText2{
+.spanText2 {
   color: #3F3F3F;
-font-family: "Source Code Variable";
-font-size: 44px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-family: "Source Code Variable";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-.editais p{
+.editais p {
   color: #000;
-text-align: left;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 1009px;
-padding-left: 6rem;
-padding-top: 45px;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 450px;
+  padding-left: 6rem; 
+  padding-top: 1rem;
+ 
 }
 
 .editalContent{
   display: flex;
-}
-
-.editalContent {
-  display: flex;
-  margin-top: 6rem;
+  flex-direction: column;
+  width: 100%;
   justify-content: center;
-  gap: 5rem;
+  align-items: center;
 }
 
+.editalCard1{
+  padding-bottom: 2rem;
+}
+
+.editalCard1 img, .editalCard2 img{
+
+  width: 300px;
+}
 
 
 
@@ -119,6 +104,7 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 text-align: center;
+padding-bottom: 2rem;
 
 }
 
@@ -143,60 +129,17 @@ text-align: center;
  justify-content: center;
  align-items: center;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 ratio */
-  height: 0;
+  /* padding-top: 56.25%; */
+  height: 470px;
 
 }
 
 .videos iframe {
  
-  width: 912px;
+  width: 90%;
   height: 465px;
   margin: 0 auto;
 }
-
-
-/* .cardsSection {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: space-around;
-  gap: 15rem;
-  margin: 2rem auto;
-  max-width: calc(2 * 585px + 2rem); 
-}*/
-
-.card {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 820px;
-  width: 524px;
-  /* padding: 1rem; */
-  /* margin-bottom: 2rem; Espaço entre as linhas */
-  border: none; /* Garante que não há borda */
-  box-shadow: none; /* Garante que não há sombra */
-}
-
-.videos {
-  /* background: #2A2A2A; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   width: 911px;
-  height: 465px;
-  
-}
-
-
-
-/* .card video {
-  width: 574px;
-  height: 330px;
-  border-radius: 0; 
-} */
-
-
 
 .title {
   color: rgba(251, 108, 4, 0.88);
@@ -208,501 +151,344 @@ text-align: center;
   font-weight: 600;
   line-height: normal;
   padding-top: 2rem;
-  width: 900px;
+  width: 90%;
   text-align: left;
-  margin-top: 12rem;
   padding-left: 1em;
+  padding-bottom: 1rem;
 }
 
-.titleSpan {
-  color: #2A2A2A;
-  font-family: "Source Code Variable";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+.imgDesk {
+  display: none;
   
-}
-
-.titleSpan2 {
-  color: #2A2A2A;
-  font-family: "Source Code Variable";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  
-}
-
-.card p {
-  color: #1E1E1E;
-  font-family: "Source Sans Pro";
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-top: 2rem;
-  margin: 0; /* Garante que não há margem extra */
-  width: 573px;
-}
-
-
-
-.information{
-  margin-top: 5rem;
-  background-image: url('assets/bgRoxo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 1050px;
-  height: 353px;
-  margin: 5rem auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5rem;
-}
-
-.information p{
-  color: #000;
-  width: 717px;
-  color: #FFF;
-padding-right: 3rem;
-text-align: right;
-font-family: "Source Code Variable";
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-  
-}
-
-.spanP1{
-  color: #FB6C04;
-font-family: "Source Code Variable";
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration-line: underline;
-}
-
-.spanP2{
-  color: #FFF;
-font-family: "Source Code Variable";
-font-size: 24px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-text-decoration-line: underline;
-}
-
-.patrocinio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 252px;
-  margin-top: 5em;
 }
 
 .imgMb{
-  display: none;
-}
-
-
-.footer {
-  background: #2A2A2A;
-  height: 709px;
-  width: 100%;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.footer-container {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(4, 1fr);
-  /* 3 colunas de largura igual */
-  gap: 15px;
-  /* Espaçamento entre as colunas */
-  /* max-width: 1200px; */
-  /* Largura máxima do footer */
+  display: flex;
   margin: 0 auto;
-  /* Centraliza o footer na página */
-  padding-left: 10rem;
 }
 
 
 
-.footer-column {
-  padding: 0 15px;
-  /* Espaçamento interno das colunas */
-  /* Ajuste de margem para a esquerda */
-
-}
-
-#col2 {
-  margin-left: -10rem;
-}
-
-.footer-column h3 {
-  font-family: "Source Sans Pro";
-  font-size: 32px;
-  font-weight: 700;
-  color: #FB6C04;
-  padding-top: 60px;
-}
-
-.footer-column-right {
-  display: flex;
-  justify-self: end;
-  /* Alinha à direita */
-  margin-top: 2rem;
-
-}
-
-.list {
-  width: 180px;
-  display: flex;
-  flex-direction: column;
-}
-
-.list2 {
-  width: 300px;
-}
-
-.list2 ul li {
-  align-items: center;
-}
-
-.footer-link {
-  list-style: none;
-  padding-top: 1rem;
-}
-
-.footer-link a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Source Sans Pro";
-  font-size: 16px;
-  font-weight: 400;
-  display: flex;
-  /* Permite que os itens sejam flexíveis */
-  align-items: center;
-  /* Alinha os itens verticalmente */
-}
-
-.footer-link img {
-  margin-right: 10px;
-  /* Espaçamento entre a imagem e o texto */
-}
-
-.info span {
-  color: #FB6C04;
-
-  font-family: "Source Sans Pro";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-#infospan {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-}
-
-.info {
-  color: #FFF;
-  font-family: "Source Sans Pro";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  width: 567px;
-  text-align: left;
-  padding: 1.2rem;
-}
-
-
-.contatoSpan {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-
-.form input {
-  border: none;
-  outline: none;
-  background: #FFF;
-  width: 456px;
-  height: 50px;
-  color: rgba(63, 63, 63, 0.65);
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  padding: 0.5em;
-}
-
-.form textarea {
-  border: none;
-  outline: none;
-  width: 456px;
-  height: 100px;
-  background: #FFF;
-  color: rgba(63, 63, 63, 0.65);
-  padding: 0.5em;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.form-group {
-  padding-top: 0.9em;
-}
-
-.form-group button {
-  width: 150px;
-  height: 43px;
-  justify-content: flex-end;
-  border: none;
-
-}
-
-#buttons {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-
-}
-
-button:hover {
-  background-color: #5C0CCB;
-  color: #FFF
-}
-
-#copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-#copyright p {
-  color: #FFF;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-
-
-
-@media (max-width: 768px) {
-
-  .editais {
-    background: none;
+/*TABLET*/
+@media screen and (min-width:426px) and (max-width:768px){
+ 
+  .editais{
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2rem;
   }
 
-  .editais img {
-    display: none;
+  .editais img{
+    display: flex;
+    width: 238px;
+    height: 385px;
   }
 
-  .editais div {
-    margin-left: 0;
-    width: 80%;
+  .editais  div{
+    margin-top: 0;
+    margin-left: -5rem;
+  }
+
+
+  .editais h1, .spanText,.spanText2 {
+   
+    width: 100%;
+    
+  }
+
+  .editais h1{
+    font-size: 40px;
+  }
+
+  .spanText,.spanText2{
+    font-size: 34px;
   }
 
   .editais p {
-    padding-left: 0;
-    padding-top: 2em;
-    font-size: 20px;
-    word-wrap: break-word;
-    width: 100%;
-  }
-
-  .editalContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    padding-top: 10rem;
-    width: 100%;
-  }
-
-  .editalCard1, .editalCard2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .editalCard1 img, .editalCard2 img{
-   
-    width: 300px;
-  }
-
-  .editalLink {
-    bottom: 35px;
-    left: 130px;
-    text-align: center;
-  }
-
-  .agenda{
-    padding-bottom: 4rem;
-  }
-
-  .videos iframe{
-    padding-bottom: 4rem;
-  }
-
-  .title, .titleSpan, .titleSpan2{
-    font: 10px;
-    padding-left: 0.5rem;
-    text-align: center;
-    
-    width: 100%;
-   
-  
-  }
-
-  .cardsSection {
-    grid-template-columns: 1fr;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 1rem;
-
-  }
-
-  .card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .videos {
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 ratio */
-    height: 0;
-    position: relative;
-  }
-
-  .videos video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .title, .titleSpan, .titleSpan2, .card p {
-    width: 100%;
-    text-align: left;
-  }
-
-  .title {
-    font-size: 24px;
-    padding-top: 1rem;
-  }
-
-  .card p {
-    font-size: 20px;
-    padding-top: 1rem;
-  }
-
-  .information{
-  width: 100%;
-  background-image: url('assets/infoBgMb.png');
-
-  }
-
-  .information p, .spanP1, .spanP2, .information img{
-    display: none;
-  }
-
-  .patrocinio{
-    height: auto;
-  }
-
-  .imgDesk{
-    display: none;
-  }
-
-  .imgMb{
-      display: flex;
-  }
-
-  
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background: #2A2A2A;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-  }
-
-  #col2 {
-    margin-left: 0;
-    margin-top: -1em;
-    background: #2A2A2A;
-  }
-
-  .info {
-    font-size: 25px;
     width: 90%;
+    font-size: 21px;
   }
 
-  .footer-column-right {
-    display: none;
-  }
-
-  #formulario {
-    background: #2A2A2A;
-    margin-top: -2em;
-  }
-
-  .form-group {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .form input,
-  .form textarea {
-    width: 96%;
-  }
-
-  #buttons {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    flex-direction: row;
-    padding-bottom: 1.5em;
-    gap: 2em;
-  }
-
-  #copyright {
-    background: #2A2A2A;
-  }
-
-  #copyright p {
-    font-size: 12px;
-  }
 
 }
 
 
+@media screen and (min-width:769px) and (max-width:1440px){
+
+  .editais {
+    background-image: url('assets/vetor1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 7rem ;
+    }
+  
+    .editais img {
+      display: flex;
+      width: 238px;
+      height: 305px;
+    
+    }
+
+    .editais div {
+      margin-top: 1rem;
+      margin-left: -5rem;
+    }
+    
+    
+.editais h1 {
+  width: 100%;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;}
+
+  .spanText {
+    
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .spanText2 {
+  
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .editais p {
+    color: #000;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1009px;
+    padding-left: 6rem;
+    padding-top: 45px;
+  }
+
+  
+
+
+.editalContent {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 6rem; */
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.editalCard1{
+  padding-bottom: 0;
+}
+
+.editalCard1 img, .editalCard2 img{
+
+  width: 500px;
+}
+
+
+.agenda{
+  padding-bottom: 4rem;
+}
+
+
+.title, .titleSpan, .titleSpan2{
+  font: 10px;
+  padding-left: 0.5rem;
+  text-align: center;
+  
+  width: 100%;
+ 
+
+}
+
+
+.agendaCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.card{
+  border: none;
+}
+
+.videos {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 100%;
+  /* padding-top: 56.25%; */
+  height: 470px;
+
+}
+
+.videos iframe {
+ 
+  width: 100%;
+  height: 465px;
+  margin: 0 auto;
+}
+
+  
+  .imgDesk{
+    display: flex;
+    margin:  0 auto;
+  }
+  
+  .imgMb{
+    display: none;
+    
+  }
+}
+
+/*Grandes telas*/
+@media screen and (min-width:1441px) and (max-width:1920px){
+
+  .editais {
+    background-image: url('assets/vetor1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+  }
+
+  .editais img {
+    display: flex;
+    width: 238px;
+    height: 305px;
+  
+  }
+
+  .editais div {
+    margin-top: 1rem;
+    margin-left: -5rem;
+  }
+
+  .editais h1, .spanText, .spanText2{
+    width: 100%;
+  }
+
+  .editais h1{
+    font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  }
+
+  .spanText, .spanText2{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .editais  p{
+    font-size: 20px;
+    width: 900px;
+   }
+
+   
+
+.editalContent {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 6rem; */
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.editalCard1{
+  padding-bottom: 0;
+}
+
+.editalCard1 img, .editalCard2 img{
+
+  width: 500px;
+}
+
+
+.agenda{
+  padding-bottom: 4rem;
+}
+
+
+.title, .titleSpan, .titleSpan2{
+  font: 10px;
+  padding-left: 0.5rem;
+  text-align: center;
+  
+  width: 100%;
+ 
+
+}
+
+
+.agendaCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.card{
+  border: none;
+}
+
+.videos {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 100%;
+  /* padding-top: 56.25%; */
+  height: 470px;
+
+}
+
+.videos iframe {
+ 
+  width: 100%;
+  height: 465px;
+  margin: 0 auto;
+}
+
+  
+  .imgDesk{
+    display: flex;
+    margin:  0 auto;
+  }
+  
+  .imgMb{
+    display: none;
+    
+  }
+
+   .imgDesk{
+    display: flex;
+    margin:  0 auto;
+  }
+  
+  .imgMb{
+    display: none;
+    
+  }
+
+}
