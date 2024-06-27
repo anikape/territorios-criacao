@@ -185,6 +185,10 @@ button:hover {
 
 /* Tablets */
 @media screen and (min-width: 426px) and (max-width: 768px) {
+
+  footer{
+    width: 100%;
+  }
   .footer-container {
     flex-direction: column;
 align-items: flex-start;
@@ -217,7 +221,7 @@ align-items: flex-start;
 
   .footer{
     height: 769px;
-    max-width: 1440px;
+    width: 100%;
   }
 
 
@@ -395,6 +399,7 @@ button:hover {
 
   .footer {
     height: auto;
+    width: 100%;
   }
 
   .footer-container {
