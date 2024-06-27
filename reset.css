@@ -271,11 +271,12 @@ align-items: flex-start;
   }
 
   #col2 {
-    margin-left: -25rem;
+    margin-left: -50rem;
   }
 
   .form {
     width: 100%;
+    margin-left: -10rem;
   }
 
   .footer-column {
