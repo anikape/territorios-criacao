@@ -1,30 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-	width: 100%;
-	height: 100%;}
-
-
-.formacao {
-  background-image: url('assets/vetor1.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 761px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+html, body{
   width: 100%;
-
 }
 
-.formacao img {
-  width: 238px;
-  height: 305px;
 
+.formacao img{
+  display: none;
 }
 
 .formacao div {
@@ -38,15 +18,17 @@ html, body {
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Source Sans Pro";
-  font-size: 50px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 600;
+  width: 450px;
+  padding-left: 8rem;
 }
 
 .spanText {
   color: #3F3F3F;
   font-family: "Source Code Variable";
-  font-size: 44px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -55,7 +37,7 @@ html, body {
 .spanText2 {
   color: #3F3F3F;
   font-family: "Source Code Variable";
-  font-size: 44px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -63,18 +45,18 @@ html, body {
 
 .formacao p {
   color: #000;
-  text-align: left;
+  text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Source Sans Pro";
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 1009px;
-  padding-left: 6rem;
-  padding-top: 45px;
+  width: 450px;
+  padding-left: 6rem; 
+  padding-top: 1rem;
+ 
 }
-
 
 .bolsistasTitle {
 
@@ -109,6 +91,7 @@ html, body {
   font-weight: 300;
   line-height: normal;
 }
+
 
 .bolsas {
   display: grid;
@@ -174,7 +157,7 @@ html, body {
 .formContact {
   display: flex;
   flex-direction: column;
-  width: 1238px;
+  width: 100%;
   height: 539px;
   margin: 0 auto;
   justify-content: center;
@@ -185,26 +168,36 @@ html, body {
 }
 
 .formContact h3 {
-  width: 910px;
+  /* width: 500px; */
   color: #FB6C04;
   text-align: center;
   font-family: "Source Sans Pro";
-  font-size: 48px;
+  font-size:58;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+
 
 }
 
 .formContact p {
   color: #2A2A2A;
   font-family: "Source Code Variable";
-  font-size: 36px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-align: center;
 
+}
+
+.formContact span {
+  color: #2A2A2A;
+  font-family: "Source Code Variable";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 
@@ -238,470 +231,196 @@ html, body {
   outline: none;
 }
 
-.formContact span {
-  color: #2A2A2A;
-  font-family: "Source Code Variable";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-
-
-
-.information {
-  margin-top: 5rem;
-  background-image: url('assets/bgRoxo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 1050px;
-  height: 353px;
-  margin: 5rem auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5rem;
-}
-
-.information p {
-  color: #000;
-  width: 717px;
-  color: #FFF;
-  padding-right: 3rem;
-  text-align: right;
-  font-family: "Source Code Variable";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-
-}
-
-.information a{
-  text-decoration: none;
-}
-
-.spanP1 {
-  color: #FB6C04;
-  font-family: "Source Code Variable";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-decoration-line: underline;
-}
-
-.spanP2 {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  text-decoration-line: underline;
-}
-
-.patrocinio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 252px;
-  margin-top: 5em;
-}
-
-.imgMb {
+.imgDesk {
   display: none;
+  
 }
 
-.footer {
-  background: #2A2A2A;
-  height: 709px;
-  width: 100%;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.footer-container {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(4, 1fr);
-  /* 3 colunas de largura igual */
-  gap: 15px;
-  /* Espaçamento entre as colunas */
-  /* max-width: 1200px; */
-  /* Largura máxima do footer */
+.imgMb{
+  display: flex;
   margin: 0 auto;
-  /* Centraliza o footer na página */
-  padding-left: 10rem;
 }
 
+/*TABLET*/
+@media screen and (min-width:426px) and (max-width:768px){
+ 
+  .formacao{
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2rem;
+  }
 
+  .formacao img{
+    display: flex;
+    width: 238px;
+    height: 385px;
+  }
 
-.footer-column {
-  padding: 0 15px;
-  /* Espaçamento interno das colunas */
-  /* Ajuste de margem para a esquerda */
-
-}
-
-#col2 {
-  margin-left: -10rem;
-}
-
-.footer-column h3 {
-  font-family: "Source Sans Pro";
-  font-size: 32px;
-  font-weight: 700;
-  color: #FB6C04;
-  padding-top: 60px;
-}
-
-.footer-column-right {
-  display: flex;
-  justify-self: end;
-  /* Alinha à direita */
-  margin-top: 2rem;
-
-}
-
-.list {
-  width: 180px;
-  display: flex;
-  flex-direction: column;
-}
-
-.list2 {
-  width: 300px;
-}
-
-.list2 ul li {
-  align-items: center;
-}
-
-.footer-link {
-  list-style: none;
-  padding-top: 1rem;
-}
-
-.footer-link a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Source Sans Pro";
-  font-size: 16px;
-  font-weight: 400;
-  display: flex;
-  /* Permite que os itens sejam flexíveis */
-  align-items: center;
-  /* Alinha os itens verticalmente */
-}
-
-.footer-link img {
-  margin-right: 10px;
-  /* Espaçamento entre a imagem e o texto */
-}
-
-.info span {
-  color: #FB6C04;
-
-  font-family: "Source Sans Pro";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-#infospan {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-}
-
-.info {
-  color: #FFF;
-  font-family: "Source Sans Pro";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  width: 567px;
-  text-align: left;
-  padding: 1.2rem;
-}
-
-
-.contatoSpan {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-
-.form input {
-  border: none;
-  outline: none;
-  background: #FFF;
-  width: 456px;
-  height: 50px;
-  color: rgba(63, 63, 63, 0.65);
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  padding: 0.5em;
-}
-
-.form textarea {
-  border: none;
-  outline: none;
-  width: 456px;
-  height: 100px;
-  background: #FFF;
-  color: rgba(63, 63, 63, 0.65);
-  padding: 0.5em;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.form-group {
-  padding-top: 0.9em;
-}
-
-.form-group button {
-  width: 150px;
-  height: 43px;
-  justify-content: flex-end;
-  border: none;
-
-}
-
-#buttons {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-
-}
-
-button:hover {
-  background-color: #5C0CCB;
-  color: #FFF
-}
-
-#formResponse {
-  text-align: center;
-  padding: 1em;
-  color: #28a745; /* verde para sucesso */
-}
-
-#copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-#copyright p {
-  color: #FFF;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-
-
-
-
-
-@media (max-width: 768px) {
-
-  .formacao {
-    background: none;
+  .formacao  div{
+    margin-top: 0;
+    margin-left: -5rem;
   }
 
 
-  .formacao img {
-    display: none;
+  .formacao h1, .spanText,.spanText2 {
+   
+    width: 100%;
+    
   }
 
-  .formacao div {
-    margin-left: 0;
-    width: 80%;
+  .formacao h1{
+    font-size: 40px;
+  }
 
+  .spanText,.spanText2{
+    font-size: 34px;
   }
 
   .formacao p {
-    padding-left: 0;
-    padding-top: 2em;
-    font-size: 23px;
-    word-wrap: break-word;
-    width: 100%;
-
-  }
-
-  .bolsas {
-    grid-template-columns: 1fr;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 1rem;
-  }
-
-  .card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .cardBolsa,
-  .cardBolsa2 {
-    width: 100%;
-    height: auto;
-    padding-top: 56.25%;
-    /* 16:9 ratio */
-    position: relative;
-  }
-
-  .cardBolsa img,
-  .cardBolsa2 img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .card p {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  .cardSpan {
-    font-size: 18px;
-  }
-
-  .formContact{
-    width: 100%;
-  }
-
-  .formContact h3{
-    font-size: 35px;
-    word-wrap: break-word;
-    width: 80%;
-  }
-
-  .formContact p, .formContact span {
-font-size: 30px;
-width: 90%;
-text-align: left;
-padding-top: 1rem;
-padding-bottom: 1rem;
-  }
-
-  .group{
-    width: 100%;
-   
-  }
-
-
-  .information {
-    width: 100%;
-    background-image: url('assets/infoBgMb.png');
-
-  }
-
-  .information p,
-  .spanP1,
-  .spanP2,
-  .information img {
-    display: none;
-  }
-
-  .patrocinio {
-    height: auto;
-  }
-
-  .imgDesk {
-    display: none;
-  }
-
-  .imgMb {
-    display: flex;
-  }
-
-
-
-
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background: #2A2A2A;
-  }
-
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-  }
-
-  #col2 {
-    margin-left: 0;
-    margin-top: -1em;
-    background: #2A2A2A;
-  }
-
-  .info {
-    font-size: 25px;
     width: 90%;
+    font-size: 21px;
   }
 
-  .footer-column-right {
-    display: none;
-  }
 
-  #formulario {
-    background: #2A2A2A;
-    margin-top: -2em;
+}
 
-  }
+@media screen and (min-width:769px) and (max-width:1440px){
 
-  .form-group {
+  .formacao {
+    background-image: url('assets/vetor1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 761px;
     display: flex;
-    flex-direction: column;
-  }
-
-  .form input,
-  .form textarea {
-    width: 96%;
-  }
-
-  #buttons {
-    display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    flex-direction: row;
-    padding-bottom: 1.5em;
-    gap: 2em;
+    padding-bottom: 7rem ;
+    }
+  
+    .formacao img {
+      display: flex;
+      width: 238px;
+      height: 305px;
+    
+    }
+
+    .formacao div {
+      margin-top: 1rem;
+      margin-left: -5rem;
+    }
+    
+    
+.formacao h1 {
+  width: 100%;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;}
+
+  .spanText {
+    
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .spanText2 {
+  
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .formacao p {
+    color: #000;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1009px;
+    padding-left: 6rem;
+    padding-top: 45px;
+  }
+  
+  .imgDesk{
+    display: flex;
+    margin:  0 auto;
+  }
+  
+  .imgMb{
+    display: none;
+    
+  }
+}
+
+/*Grandes telas*/
+@media screen and (min-width:1441px) and (max-width:1920px){
+
+  .formacao {
+    background-image: url('assets/vetor1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
   }
 
-  #copyright {
-    background: #2A2A2A;
-
+  .formacao img {
+    display: flex;
+    width: 238px;
+    height: 305px;
+  
   }
 
-  #copyright p {
-    font-size: 12px;
+  .formacao div {
+    margin-top: 1rem;
+    margin-left: -5rem;
   }
+
+  .formacao h1, .spanText, .spanText2{
+    width: 100%;
+  }
+
+  .formacao h1{
+    font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  }
+
+  .spanText, .spanText2{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .formacao  p{
+    font-size: 20px;
+    width: 900px;
+   }
+
+   .imgDesk{
+    display: flex;
+    margin:  0 auto;
+  }
+  
+  .imgMb{
+    display: none;
+    
+  }
+
+
+
+
 
 }

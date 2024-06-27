@@ -174,7 +174,7 @@ padding-left: 2rem;
   }
 
 
-
+/*PC telas pequenas*/
 @media screen and (min-width:769px) and (max-width:1440px){
   .projeto{
     background-image: url('assets/vetor1.png');
