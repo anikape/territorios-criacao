@@ -143,9 +143,6 @@ text-align: center;
 /*Tablet*/
 @media screen and (min-width:426px) and (max-width:768px){
   .quem{
-    /* background-image: url('assets/vetor1.png'); */
-    background-repeat: no-repeat;
-    background-position: right top;
     height: 761px;
     display: flex;
     justify-content: center;

@@ -125,24 +125,170 @@ padding-left: 2rem;
   margin:  0 auto;
 }
 
+@media screen and (min-width:426px) and (max-width:768px){
 
+  .projeto img{
+    display: flex;
+    width: 238px;
+    height: 385px;
+  }
 
+ .projeto{
+  height: 761px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2rem;
+ }
 
+ .projeto div{
+  margin-top: 0;
+  margin-left: -5rem;
+}
 
+ .projeto h1, .spanText, .spanText2{
+  width: 80%;
+ }
+  
+ .projeto p{
+  font-size: 20px;
+  width: 95%;
+ }
 
+ .objetivo{
+  width:100%;
+ }
 
+ .objetivoTitle, .objetivoParag, .objetivo ul li{
+  width: 100%;
+ }
 
+ #conclusao{
+  width: 100%;
+ }
 
-
-
-
-
-
-
+}projeto img{
+    display: flex !important;
+    width: 238px;
+    height: 385px;
+  }
 
 
 
 @media screen and (min-width:769px) and (max-width:1440px){
+  .projeto{
+    background-image: url('assets/vetor1.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -5rem;
+  }
+
+  .projeto img{
+    display: flex;
+    width: 238px;
+  height: 305px;
+  
+  }
+  
+ .projeto div{
+  padding-bottom: 2rem;
+ }
+
+ .projeto h1, .spanText, .spanText2{
+  width: 100%;
+ }
+  
+ .projeto p{
+  font-size: 20px;
+  width: 900px;
+ }
+
+ .objetivo{
+  width:100%;
+ }
+
+ .objetivoTitle, .objetivoParag, .objetivo ul li{
+  width: 100%;
+ }
+
+ #conclusao{
+  width: 100%;
+ }
+
+ .imgDesk{
+  display: flex;
+  margin:  0 auto;
+}
+
+.imgMb{
+  display: none;
+  
+}
+
+
+}
+
+/*Grandes telas*/
+@media screen and (min-width:1441px) and (max-width:1920px){
+  .projeto{
+    background-image: url('assets/vetor1.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding-bottom: 5rem;
+  }
+
+  .projeto img{
+    display: flex;
+    width: 238px;
+  height: 305px;
+  
+  }
+  
+ .projeto div{
+  padding-bottom: 2rem;
+ }
+
+
+ .projeto h1, .spanText, .spanText2{
+  width: 100%;
+ }
+  
+ .projeto p{
+  font-size: 20px;
+  width: 900px;
+ }
+
+
+ .objetivo{
+  width:100%;
+ }
+
+ .objetivoTitle, .objetivoParag, .objetivo ul li{
+  width: 100%;
+ }
+
+ #conclusao{
+  width: 100%;
+ }
+ .imgDesk{
+  display: flex;
+  margin:  0 auto;
+}
+
+.imgMb{
+  display: none;
+  
+}
 
 
 }
