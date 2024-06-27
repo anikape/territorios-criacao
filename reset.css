@@ -186,11 +186,11 @@ button:hover {
   }
   .footer-container {
     flex-direction: column;
-align-items: flex-start;
+    align-items: flex-start;
   }
 
   .footer-column {
-    width: 48%;
+    width: 20%;
     margin-bottom: 20px;
   }
 
@@ -260,7 +260,7 @@ align-items: flex-start;
 }
 
 #col2{
- margin-left: -15rem;
+ margin-left: -20rem;
 }
 
 #col2 a{
