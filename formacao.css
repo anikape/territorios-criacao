@@ -240,3 +240,187 @@ html, body{
   display: flex;
   margin: 0 auto;
 }
+
+/*TABLET*/
+@media screen and (min-width:426px) and (max-width:768px){
+ 
+  .formacao{
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  .formacao img{
+    display: flex;
+    width: 238px;
+    height: 385px;
+  }
+
+  .formacao  div{
+    margin-top: 0;
+    margin-left: -5rem;
+  }
+
+
+  .formacao h1, .spanText,.spanText2 {
+   
+    width: 100%;
+    
+  }
+
+  .formacao h1{
+    font-size: 40px;
+  }
+
+  .spanText,.spanText2{
+    font-size: 34px;
+  }
+
+  .formacao p {
+    width: 90%;
+    font-size: 21px;
+  }
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:1440px){
+
+  .formacao {
+    background-image: url('assets/vetor1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 7rem ;
+    }
+  
+    .formacao img {
+      display: flex;
+      width: 238px;
+      height: 305px;
+    
+    }
+
+    .formacao div {
+      margin-top: 1rem;
+      margin-left: -5rem;
+    }
+    
+    
+.formacao h1 {
+  width: 100%;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;}
+
+  .spanText {
+    
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .spanText2 {
+  
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .formacao p {
+    color: #000;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1009px;
+    padding-left: 6rem;
+    padding-top: 45px;
+  }
+  
+  .imgDesk{
+    display: flex;
+    margin:  0 auto;
+  }
+  
+  .imgMb{
+    display: none;
+    
+  }
+}
+
+/*Grandes telas*/
+@media screen and (min-width:1441px) and (max-width:1920px){
+
+  .formacao {
+    background-image: url('assets/vetor1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+  }
+
+  .formacao img {
+    display: flex;
+    width: 238px;
+    height: 305px;
+  
+  }
+
+  .formacao div {
+    margin-top: 1rem;
+    margin-left: -5rem;
+  }
+
+  .formacao h1, .spanText, .spanText2{
+    width: 100%;
+  }
+
+  .formacao h1{
+    font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  }
+
+  .spanText, .spanText2{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .formacao  p{
+    font-size: 20px;
+    width: 900px;
+   }
+
+   .imgDesk{
+    display: flex;
+    margin:  0 auto;
+  }
+  
+  .imgMb{
+    display: none;
+    
+  }
+
+
+
+
+
+}

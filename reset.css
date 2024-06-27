@@ -175,6 +175,12 @@ button:hover {
 }
 
 
+#formResponse {
+  text-align: center;
+  padding: 1em;
+  color: #28a745; /* verde para sucesso */
+}
+
 
 .footer-column-right{
   display: none;
@@ -241,63 +247,166 @@ button:hover {
   .footer-container {
     display: grid;
     justify-content: center;
-  
-    grid-template-columns: repeat(4, 1fr);
+     grid-template-columns: repeat(4, 1fr);
     /* 3 colunas de largura igual */
-    gap: 15px;
-    /* Espaçamento entre as colunas */
-    /* max-width: 1200px; */
-    /* Largura máxima do footer */
+   
     margin: 0 auto;
     /* Centraliza o footer na página */
-    padding-left: 6.7rem;
+    padding-left: 0;
+  }
+
+  .info span {
+    color: #FB6C04;
+  
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  #infospan {
+    color: #FFF;
+    font-family: "Source Code Variable";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+  }
+  
+  .info{
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    width: 667px;
+    text-align: left;
+    padding: 4rem;
   }
 
   #col2{
-    margin-left: -5rem;
+    margin-left: -18rem;
   }
 
   .form{
     width: 100%;
+    
+    
   }
 
   .footer-column {
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+   
 
   }
 
  .footer-column h3, .footer-column span{
   display: flex;
   text-align: center;
-  font-size: 26px;
+  font-size: 36px;
   margin: 0 auto;
+  width: 100%;
+  margin-left: 2rem;
  
 }
 
 #formulario{
-  width: 100%;
-  justify-self: flex-start;
- 
+  margin-top: -1.9rem;
 }
 
-.form-group input, .form-group textarea{
-
-    width: 100%;
+.contatoSpan {
+  color: #FFF;
+  font-family: "Source Code Variable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-  .footer-column-right {
-    display: flex;
-    justify-self: end;
-    /* Alinha à direita */
-    margin-top: 2rem;
+
+.form input {
+  border: none;
+  outline: none;
+  background: #FFF;
+  width: 456px;
+  height: 50px;
+  color: rgba(63, 63, 63, 0.65);
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.5em;
+}
+
+.form textarea {
+  border: none;
+  outline: none;
+  width: 456px;
+  height: 100px;
+  background: #FFF;
+  color: rgba(63, 63, 63, 0.65);
+  padding: 0.5em;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.form-group {
+  padding-top: 0.9em;
+}
+
+.form-group button {
+  width: 150px;
+  height: 43px;
+  justify-content: flex-end;
+  border: none;
+
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+
+}
   
-  }
+button:hover {
+  background-color: #5C0CCB;
+  color: #FFF
+}
 
-  #buttons button{
-    width: 100px;
-    margin: 0 auto;
-  }
+#formResponse {
+  text-align: center;
+  padding: 1em;
+  color: #28a745; /* verde para sucesso */
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#copyright p {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.footer-column-right {
+  display: flex;
+  justify-self: end;
+  /* Alinha à direita */
+  margin-top: 2rem;
+
+}
+
   
 
 
@@ -334,6 +443,13 @@ button:hover {
   
   }
 
+  
+#formResponse {
+  text-align: center;
+  padding: 1em;
+  color: #28a745; /* verde para sucesso */
+}
+
   #copyright p {
     color: #FFF;
     font-size: 14px;
@@ -341,4 +457,7 @@ button:hover {
     font-weight: 500;
     font-family: "Be Vietnam Pro", sans-serif;
   }
+
+
+
 }
