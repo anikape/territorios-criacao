@@ -9,14 +9,6 @@
   
 }
 
-@font-face {
-  font-family: 'MinhaFonte';
-  src: url('./fonts/MinhaFonte.woff2') format('woff2'),
-       url('./fonts/MinhaFonte.woff') format('woff'),
-       url('./fonts/MinhaFonte.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 body {
   font-family: 'MinhaFonte', sans-serif;
@@ -220,149 +212,86 @@ align-items: flex-start;
 }
 
 /*PC tela pequena*/
-/* Tablets */
-@media screen and (min-width: 769px) and (max-width: 1440px) {
-  .footer {
-    height: 769px;
-    width: 100%;
-  }
 
-  .footer-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding-left: 1rem;
-    align-items: stretch;
-    margin-top: 5rem;
-    max-width: 1440px;
-  }
+.footer {
+  height: auto;
+  width: 100%;
+}
 
-  .info span {
-    color: #FB6C04;
-    font-family: "Source Sans Pro";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-  }
+.footer-container {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 10.9rem;
+  max-width: 100%;
+  flex-wrap: nowrap;
+  margin-top: 5rem;
+}
 
-  #infospan {
-    color: #FFF;
-    font-family: "Source Code Variable";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+.footer-column {
+ margin-top: 2rem;
+  width: 22%; /* Ajuste conforme necessário */
+  justify-self: start;
+}
 
-  .info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.footer-column-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: -10rem;
+}
 
-  .info p {
-    color: #FFF;
-    font-family: "Source Sans Pro";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    width: 667px;
-    text-align: center;
-    padding-top: 4rem;
-  }
+.footer-column h3{
+  font-size: 30px;
 
-  #col2 {
-    margin-left: -25rem;
-  }
+}
 
-  .form {
-    width: 100%;
-  }
+.footer-link a {
+  font-size: 20px; 
+  width: 100%;
+}
 
-  .footer-column {
-    justify-content: flex-start;
-  }
+.info{
+  margin-top: 5rem;
+  width: 500px;
+}
 
-  .footer-column h3,
-  .footer-column span {
-    display: flex;
-    text-align: center;
-    font-size: 36px;
-    margin: 0 auto;
-    width: 100%;
-    margin-left: 2rem;
-  }
+#col2{
+ margin-left: -15rem;
+}
 
-  .contatoSpan {
-    color: #FFF;
-    font-family: "Source Code Variable";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+#col2 a{
+  width: 500px;
+}
 
-  .form input {
-    border: none;
-    outline: none;
-    background: #FFF;
-    width: 456px;
-    height: 50px;
-    color: rgba(63, 63, 63, 0.65);
-    font-family: "Source Sans Pro";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    padding: 0.5em;
-  }
+.form-group input,
+.form-group textarea {
+  width:450px;
+}
 
-  .form textarea {
-    border: none;
-    outline: none;
-    width: 456px;
-    height: 100px;
-    background: #FFF;
-    color: rgba(63, 63, 63, 0.65);
-    padding: 0.5em;
-    font-family: "Source Sans Pro";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-  }
+#formResponse {
+  text-align: center;
+  padding: 1em;
+  color: #28a745; /* verde para sucesso */
+}
 
-  .form-group {
-    padding-top: 0.9em;
-  }
+#copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
 
-  .form-group button {
-    width: 150px;
-    height: 43px;
-    justify-content: flex-end;
-    border: none;
-  }
-
-  #buttons {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-  }
-
-  button:hover {
-    background-color: #5c0ccb;
-    color: #fff;
-  }
-
-  #formResponse {
-    text-align: center;
-    padding: 1em;
-    color: #28a745; /* verde para sucesso */
-  }
-
-  .footer-column-right {
-    display: flex;
-    justify-self: end;
-    /* Alinha à direita */
-    margin-top: 2rem;
-  }
+#copyright p {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 /*Grandes telas*/
