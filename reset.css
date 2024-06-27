@@ -1,48 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  
 }
-
 
 body {
-  font-family: 'MinhaFonte', sans-serif;
+  font-family: "MinhaFonte", sans-serif;
 }
 
-html, body {
-	max-width: 100%;
-	height: 100%;
-  overflow-x:hidden;
+html,
+body {
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 /*estilo do scroll*/
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 12px; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background:  #2A2A2A;       /* color of the tracking area */
+  background: #2a2a2a; /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color:rgba(251, 108, 4, 0.88); 
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 4px solid  rgba(251, 108, 4, 0.88); /* creates padding around scroll thumb */
+  background-color: rgba(251, 108, 4, 0.88);
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 4px solid rgba(251, 108, 4, 0.88); /* creates padding around scroll thumb */
 }
 
 /**/
 
 /* Estilos Gerais */
 .footer {
-  background: #2A2A2A;
+  background: #2a2a2a;
   color: #fff;
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  padding: 2rem;
   width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 .footer-container {
@@ -52,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer-column {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   width: 100%;
 }
 
@@ -60,13 +62,13 @@ body::-webkit-scrollbar-thumb {
   font-family: "Source Sans Pro";
   font-size: 24px;
   font-weight: 700;
-  color: #FB6C04;
-  padding-top: 20px;
-  padding-left: 2rem;
+  color: #fb6c04;
+  /* padding-top: 20px; */
+  /* padding-left: 2rem; */
 }
 
 .footer-link {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 
 .footer-link a {
@@ -80,7 +82,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .info {
-  color: #FFF;
+  color: #fff;
   font-family: "Source Sans Pro";
   font-size: 20px;
   font-weight: 700;
@@ -91,12 +93,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .info span {
-  color: #FB6C04;
+  color: #fb6c04;
   font-size: 28px;
 }
 
 #infospan {
-  color: #FFF;
+  color: #fff;
   font-family: "Source Code Variable";
   font-size: 20px;
   font-weight: 400;
@@ -104,13 +106,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .list {
-  width: 180px;
+  /* width: 180px; */
   display: flex;
   flex-direction: column;
 }
 
 .list2 {
-  width: 300px;
+  /* width: 300px; */
 }
 
 .form {
@@ -122,29 +124,32 @@ body::-webkit-scrollbar-thumb {
 }
 
 .form-group {
-  align-items: center;
-  padding: 0.5rem 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* align-items: center; */
+  /* padding: 0.5rem; */
   width: 100%;
 }
 
 .form input,
 .form textarea {
-  border: none;
+  /* border: none;
   outline: none;
-  background: #FFF;
+  background: #fff;
   color: rgba(63, 63, 63, 0.65);
   font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: 400;
   padding: 0.5em;
-  width: 90%;
+  width: 90%; */
 }
 
 .form-group button {
-  width: 150px;
+  /* width: 150px;
   height: 43px;
   justify-content: center;
-  border: none;
+  border: none; */
 }
 
 #buttons {
@@ -154,8 +159,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 button:hover {
-  background-color: #5C0CCB;
-  color: #FFF;
+  background-color: #5c0ccb;
+  color: #fff;
 }
 
 #formResponse {
@@ -165,11 +170,16 @@ button:hover {
 }
 
 .footer-column-right {
-  display: none;
+  /* display: none; */
+}
+
+.logo-position {
+  position: absolute;
+  right: -35px;
 }
 
 #copyright {
-  background: #2A2A2A;
+  background: #2a2a2a;
 }
 
 #copyright p {
@@ -180,34 +190,33 @@ button:hover {
 
 /* Tablets */
 @media screen and (min-width: 426px) and (max-width: 768px) {
-
-  footer{
+  footer {
     width: 100%;
   }
   .footer-container {
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
   }
 
   .footer-column {
-    width: 20%;
-    margin-bottom: 20px;
+    /* width: 20%; */
+    /* margin-bottom: 20px; */
   }
 
   .form-group {
-    display: grid;
+    /* display: grid;
     width: 100%;
     justify-content: flex-start;
-    margin-top: 2rem;
+    margin-top: 2rem; */
   }
 
   .form-group input,
   .form-group textarea {
-    width: 500px;
+    /* width: 500px; */
   }
 
   #copyright p {
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
   }
 }
 
@@ -219,7 +228,7 @@ button:hover {
 }
 
 .footer-container {
-  display: flex;
+  /* display: flex;
   align-items: stretch;
   flex-direction: row;
   justify-content: space-between;
@@ -227,49 +236,49 @@ button:hover {
   padding-right: 10.9rem;
   max-width: 100%;
   flex-wrap: nowrap;
-  margin-top: 5rem;
+  margin-top: 5rem; */
 }
 
 .footer-column {
- margin-top: 2rem;
-  width: 22%; /* Ajuste conforme necessário */
-  justify-self: start;
+  /* margin-top: 2rem; */
+  /* width: 22%; */
+  /* Ajuste conforme necessário */
+  /* justify-self: start; */
 }
 
 .footer-column-right {
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-top: 2rem;
-  margin-right: -10rem;
+  margin-right: -10rem; */
 }
 
-.footer-column h3{
+.footer-column h3 {
   font-size: 30px;
-
 }
 
 .footer-link a {
-  font-size: 20px; 
+  font-size: 20px;
   width: 100%;
 }
 
-.info{
-  margin-top: 5rem;
-  width: 500px;
+.info {
+  /* margin-top: 5rem;
+  width: 500px; */
 }
 
-#col2{
- margin-left: -30rem;
+/* #col2 {
+  margin-left: -30rem;
 }
 
-#col2 a{
+#col2 a {
   width: 500px;
-}
+} */
 
 .form-group input,
 .form-group textarea {
-  width:450px;
+  /* width: 450px; */
 }
 
 #formResponse {
@@ -287,7 +296,7 @@ button:hover {
 }
 
 #copyright p {
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -295,8 +304,7 @@ button:hover {
 }
 
 /*Grandes telas*/
-@media screen and (min-width:1441px) {
-
+@media screen and (min-width: 1441px) {
   .footer {
     height: auto;
     width: 100%;
@@ -304,61 +312,63 @@ button:hover {
 
   .footer-container {
     display: flex;
-    align-items: stretch;
     flex-direction: row;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 10.9rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* padding-left: 1rem; */
+    /* padding-right: 10.9rem; */
     max-width: 100%;
-    flex-wrap: nowrap;
-    margin-top: 5rem;
+    /* flex-wrap: nowrap; */
+    /* margin-top: 5rem; */
   }
 
   .footer-column {
-   margin-top: 2rem;
-    width: 22%; /* Ajuste conforme necessário */
-    justify-self: start;
+    /* margin-top: 2rem; */
+    width: 100%;
+    /* Ajuste conforme necessário */
+    /* justify-self: start; */
+    flex: 1;
   }
 
   .footer-column-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 2rem;
-    margin-right: -10rem;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* margin-top: 2rem; */
+    /* margin-right: -10rem; */
+    position: relative;
   }
 
-  .footer-column h3{
+  .footer-column h3 {
     font-size: 30px;
-  
   }
 
   .footer-link a {
-    font-size: 20px; 
+    font-size: 20px;
     width: 100%;
   }
 
-  .info{
-    margin-top: 5rem;
+  .info {
+    /* margin-top: 5rem;
+    width: 500px; */
+  }
+
+  /* #col2 {
+    margin-left: -15rem;
+  }
+
+  #col2 a {
     width: 500px;
-  }
+  } */
 
-  #col2{
-   margin-left: -15rem;
-  }
-
-  #col2 a{
-    width: 500px;
-  }
-
-  .form-group input,
+  /* .form-group input,
   .form-group textarea {
-    width:450px;
-  }
+    width: 450px;
+  } */
 
   #formResponse {
     text-align: center;
-    padding: 1em;
+    /* padding: 1em; */
     color: #28a745; /* verde para sucesso */
   }
 
@@ -371,11 +381,10 @@ button:hover {
   }
 
   #copyright p {
-    color: #FFF;
+    color: #fff;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     font-family: "Be Vietnam Pro", sans-serif;
   }
 }
-
