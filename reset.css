@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  overflow-x
+  
 }
 
 @font-face {
@@ -24,7 +24,9 @@ body {
 
 html, body {
 	max-width: 100%;
-	height: 100%;}
+	height: 100%;
+  overflow-x:hidden;
+}
 
 /*estilo do scroll*/
 body::-webkit-scrollbar {
@@ -218,22 +220,20 @@ align-items: flex-start;
 }
 
 /*PC tela pequena*/
-@media screen and (min-width:769px) and (max-width:1440px){
-
-  .footer{
+/* Tablets */
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .footer {
     height: 769px;
     width: 100%;
   }
 
-
   .footer-container {
     display: grid;
-    /* justify-content: center; */
-     grid-template-columns: repeat(4, 1fr);
-     padding-left: 0;
-     align-items: stretch;
-     margin-top: 5rem;
-     max-width: 1440px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 1rem;
+    align-items: stretch;
+    margin-top: 5rem;
+    max-width: 1440px;
   }
 
   .info span {
@@ -243,7 +243,7 @@ align-items: flex-start;
     font-style: normal;
     font-weight: 700;
   }
-  
+
   #infospan {
     color: #FFF;
     font-family: "Source Code Variable";
@@ -251,16 +251,15 @@ align-items: flex-start;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-  
   }
 
-  .info{
+  .info {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  .info p{
+
+  .info p {
     color: #FFF;
     font-family: "Source Sans Pro";
     font-size: 25px;
@@ -269,130 +268,101 @@ align-items: flex-start;
     width: 667px;
     text-align: center;
     padding-top: 4rem;
-   
   }
 
-  
-
-  #col2{
+  #col2 {
     margin-left: -18rem;
   }
 
-  .form{
+  .form {
     width: 100%;
-    
-    
   }
 
   .footer-column {
     justify-content: flex-start;
-  
   }
 
- .footer-column h3, .footer-column span{
-  display: flex;
-  text-align: center;
-  font-size: 36px;
-  margin: 0 auto;
-  width: 100%;
-  margin-left: 2rem;
- 
-}
+  .footer-column h3,
+  .footer-column span {
+    display: flex;
+    text-align: center;
+    font-size: 36px;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 2rem;
+  }
 
+  .contatoSpan {
+    color: #FFF;
+    font-family: "Source Code Variable";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 
+  .form input {
+    border: none;
+    outline: none;
+    background: #FFF;
+    width: 456px;
+    height: 50px;
+    color: rgba(63, 63, 63, 0.65);
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0.5em;
+  }
 
-.contatoSpan {
-  color: #FFF;
-  font-family: "Source Code Variable";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
+  .form textarea {
+    border: none;
+    outline: none;
+    width: 456px;
+    height: 100px;
+    background: #FFF;
+    color: rgba(63, 63, 63, 0.65);
+    padding: 0.5em;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
 
+  .form-group {
+    padding-top: 0.9em;
+  }
 
-.form input {
-  border: none;
-  outline: none;
-  background: #FFF;
-  width: 456px;
-  height: 50px;
-  color: rgba(63, 63, 63, 0.65);
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  padding: 0.5em;
-}
+  .form-group button {
+    width: 150px;
+    height: 43px;
+    justify-content: flex-end;
+    border: none;
+  }
 
-.form textarea {
-  border: none;
-  outline: none;
-  width: 456px;
-  height: 100px;
-  background: #FFF;
-  color: rgba(63, 63, 63, 0.65);
-  padding: 0.5em;
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-}
+  #buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
 
-.form-group {
-  padding-top: 0.9em;
-}
+  button:hover {
+    background-color: #5c0ccb;
+    color: #fff;
+  }
 
-.form-group button {
-  width: 150px;
-  height: 43px;
-  justify-content: flex-end;
-  border: none;
+  #formResponse {
+    text-align: center;
+    padding: 1em;
+    color: #28a745; /* verde para sucesso */
+  }
 
-}
-
-#buttons {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-
-}
-  
-button:hover {
-  background-color: #5C0CCB;
-  color: #FFF
-}
-
-#formResponse {
-  text-align: center;
-  padding: 1em;
-  color: #28a745; /* verde para sucesso */
-}
-
-#copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-#copyright p {
-  color: #FFF;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-
-.footer-column-right {
-  display: flex;
-  justify-self: end;
-  /* Alinha à direita */
-  margin-top: 2rem;
-
-}
-
+  .footer-column-right {
+    display: flex;
+    justify-self: end;
+    /* Alinha à direita */
+    margin-top: 2rem;
+  }
 }
 
 /*Grandes telas*/
