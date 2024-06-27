@@ -18,7 +18,7 @@ a{
 /*FOOTER REPLICANDO NAS PAG*/
 .footer {
   background: #2A2A2A;
-  height: 160vh;
+  height: 190vh;
   width: 100%;
   color: #fff;
   padding: 20px 0;
@@ -194,10 +194,10 @@ button:hover {
 /*Tablet*/
 @media screen and (min-width:426px) and (max-width:768px){
 
-.footer{
-  height: 136vh;
+/* footer{
+  height: 10vh;
 
-}
+} */
 
 .form{
   width: 100%;
