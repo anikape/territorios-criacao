@@ -2,7 +2,8 @@
   background: rgba(0, 0, 0, 0.86);
   background-image: url('assets/bgMobile.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  /* background-size: cover; */
   height: 900px;
   width: 100%;
 
@@ -185,15 +186,15 @@
     padding-left: 0;
     
   }
-
+/* 
   .iniciativas p {
     display: flex;
     color: #FFF;
     font-family: "Source Sans Pro";
   
-  }
+  } */
 
-  .iniciativa1 {
+  /* .iniciativa1 {
     color: #FB6C04;
   }
   
@@ -202,7 +203,7 @@
     font-size: 40px;
     font-family: Source Code Variable;
     font-weight: 300;
-  }
+  } */
 
 
 
@@ -247,17 +248,14 @@
   }
 
   
-.iniciativas p {
+/* .iniciativas p {
   display: flex;
   color: #FFF;
   font-family: "Source Sans Pro";
   text-align: center;
-  /* padding-top: 2rem; */
   margin-left: 2rem;
   width: 700px;
-  
-
-}
+  }
 
   .iniciativa1 {
     color: #FB6C04;
@@ -268,7 +266,7 @@
     font-size: 40px;
     font-family: Source Code Variable;
     font-weight: 300;
-  }
+  } */
 
   .cards {
     display: flex;
