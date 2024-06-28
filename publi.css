@@ -50,7 +50,7 @@ html, body{
 
 .publicacao p {
   color: #000;
-  text-align: center;
+  text-align: left;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Source Sans Pro";
   font-size: 20px;
@@ -218,12 +218,16 @@ html, body{
 }
 
 
-
 .group input {
   background: transparent;
   outline: none;
   height: 56px;
   width: 159px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: #2A2A2A;
+  font-family: "Source Code Variable";
 }
 
 
@@ -377,7 +381,7 @@ html, body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 190px;
+    
   }
 
   .publicacao img {
@@ -388,7 +392,7 @@ html, body{
   }
 
   .publicacao div {
-    margin-top: 1rem;
+    margin-top: -8rem;
     margin-left: -5rem;
   }
 
@@ -413,6 +417,21 @@ html, body{
     font-size: 20px;
     width: 900px;
    }
+
+   
+   .group{
+    width: 550px;
+   }
+
+   .group input{
+   
+      width: 100%;
+   }
+
+   #contactForm2{
+    padding-top: 2rem;
+   }
+
 
    .imgDesk{
     display: flex;

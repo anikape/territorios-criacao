@@ -107,7 +107,7 @@ font-weight: 400;
 line-height: normal;
 width: 300px;
 padding-top: 1rem;
-text-align: center;
+text-align: left;
 }
 
 .infoDesk{
@@ -572,7 +572,7 @@ font-weight: 400;
 line-height: normal;
 width: 1098px;
 padding-top: 1rem;
-text-align: center;
+text-align: left;
 }
 
 .infoMobile{
@@ -607,7 +607,7 @@ color: #000;
 color: #FFF;
 text-align: right;
 font-family: "Source Code Variable";
-font-size: 20px;
+font-size: 19px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;

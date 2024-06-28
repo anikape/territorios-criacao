@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb {
 
 .footer-column {
   width: 100%;
-  margin: 0 1rem;
+  
 }
 
 .footer-column h3 {
@@ -112,6 +112,10 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+}
+
+.list li a:hover, .list2 li a:hover{
+  color: #fb6c04;
 }
 
 .form {
@@ -169,10 +173,6 @@ button:hover {
   color: #28a745; /* verde para sucesso */
 }
 
-.footer-column-right {
-  /* display: none; */
-}
-
 .logo-position {
   display: flex;
   align-items: center;
@@ -210,73 +210,19 @@ button:hover {
 
 /* Tablets */
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  /* footer {
-    width: 100%;
-  } */
+ 
   .footer-container {
     flex-direction: column;
-    /* align-items: flex-start; */
+   
   }
 
-  .footer-column {
-    /* width: 20%; */
-    /* margin-bottom: 20px; */
-  }
 
-  .form-group {
-    /* display: grid;
-    width: 100%;
-    justify-content: flex-start;
-    margin-top: 2rem; */
-  }
-
-  .form-group input,
-  .form-group textarea {
-    /* width: 500px; */
-  }
-
-  #copyright p {
-    /* padding-top: 1rem; */
-  }
 
   .logo-position {
     display: none;
   }
 }
 
-/*PC tela pequena*/
-
-/* .footer {
-  height: auto;
-  width: 100%;
-} */
-
-.footer-container {
-  /* display: flex;
-  align-items: stretch;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 1rem;
-  padding-right: 10.9rem;
-  max-width: 100%;
-  flex-wrap: nowrap;
-  margin-top: 5rem; */
-}
-
-.footer-column {
-  /* margin-top: 2rem; */
-  /* width: 22%; */
-  /* Ajuste conforme necessário */
-  /* justify-self: start; */
-}
-
-.footer-column-right {
-  /* display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 2rem;
-  margin-right: -10rem; */
-}
 
 .footer-column h3 {
   font-size: 30px;
@@ -284,26 +230,11 @@ button:hover {
 
 .footer-link a {
   font-size: 20px;
-  /*width: 100%; */
+
 }
 
-.info {
-  /* margin-top: 5rem;
-  width: 500px; */
-}
 
-/* #col2 {
-  margin-left: -30rem;
-}
 
-#col2 a {
-  width: 500px;
-} */
-
-.form-group input,
-.form-group textarea {
-  /* width: 450px; */
-}
 
 #formResponse {
   text-align: center;
@@ -330,70 +261,18 @@ button:hover {
 
 /*Grandes telas*/
 @media screen and (min-width: 1441px) {
-  /* .footer {
-    height: auto;
-    width: 100%;
-  } */
-
-  .footer-container {
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start; */
-    /* padding-left: 1rem; */
-    /* padding-right: 10.9rem; */
-    /* max-width: 100%; */
-    /* flex-wrap: nowrap; */
-    /* margin-top: 5rem; */
-  }
-
-  .footer-column {
-    /* margin-top: 2rem; */
-    /* width: 100%; */
-    /* Ajuste conforme necessário */
-    /* justify-self: start; */
-    /* flex: 1; */
-  }
 
   .footer-column-right {
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* align-items: center; */
-    /* margin-top: 2rem; */
-    /* margin-right: -10rem; */
-    /* position: relative; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-top: 2rem; 
+    margin-right: -2rem;  
+   
   }
 
-  .footer-column h3 {
-    /* font-size: 30px; */
-  }
-
-  .footer-link a {
-    /* font-size: 20px;
-    width: 100%; */
-  }
-
-  .info {
-    /* margin-top: 5rem;
-    width: 500px; */
-  }
-
-  /* #col2 {
-    margin-left: -15rem;
-  }
-
-  #col2 a {
-    width: 500px;
-  } */
-
-  /* .form-group input,
-  .form-group textarea {
-    width: 450px;
-  } */
-
-  #formResponse {
+   #formResponse {
     text-align: center;
-    /* padding: 1em; */
     color: #28a745; /* verde para sucesso */
   }
 
