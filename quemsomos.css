@@ -459,6 +459,7 @@ height: 247px;
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 190px;
   
   }
   .quem img{
@@ -550,6 +551,7 @@ padding-top: 45px;
   font-weight: 700;
   line-height: normal;
   padding-top: 2rem;
+  width: 100%;
 }
 
 .mercurio span, .poc span{
@@ -609,7 +611,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-width: 717px;
+width: 800px;
 
 }
 .information a{

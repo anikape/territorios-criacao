@@ -98,7 +98,7 @@
   width: 100%;
 }
 
-.iniciativas p {
+/* .iniciativas p {
   display: none;
   color: #FFF;
   font-family: "Source Sans Pro";
@@ -106,19 +106,10 @@
   font-weight: 600;
   padding-top: 70px;
    text-align: center;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  /* Permite que os cards quebrem linha */
-  justify-content: space-around;
-  /* Centraliza os cards horizontalmente */
+} */
 
 
-}
-
-.iniciativa1 {
+/* .iniciativa1 {
   color: #FB6C04;
 }
 
@@ -127,6 +118,15 @@
   font-size: 40px;
   font-family: Source Code Variable;
   font-weight: 300;
+} */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que os cards quebrem linha */
+  justify-content: space-around;
+  /* Centraliza os cards horizontalmente */
+
 }
 
 .card-link img {
@@ -327,7 +327,6 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding-top: 20rem;
     padding-left: 0.5em;
   }
 
@@ -358,37 +357,27 @@
     background-image: url('assets/bgIniciativas.png');
     
   }
-
+/* 
   .iniciativas p {
     display: block;
-    /* flex-direction: column; */
     color: #FFF;
     font-family: "Source Sans Pro";
     padding-top: 5rem;
     width: 870px;
     text-align: center !important;
-  }
+  } */
 
 
-  .iniciativa1 {
-   
-    color: #FB6C04;
-  }
-  
-  .iniciativa2 {
-    
-    color: white !important;
-    font-size: 40px;
-    font-family: Source Code Variable;
-    font-weight: 300;
-  }
+ 
 
   .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     /* margin-top: 20px; */
     width: 100%;
     height: 611px;
+    gap:20px;
   }
 
   .card-link {

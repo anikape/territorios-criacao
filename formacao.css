@@ -383,8 +383,9 @@ html, body{
   }
 
   .formacao div {
-    margin-top: 1rem;
+    margin-top: -5rem;
     margin-left: -5rem;
+    
   }
 
   .formacao h1, .spanText, .spanText2{
@@ -407,6 +408,20 @@ html, body{
   .formacao  p{
     font-size: 20px;
     width: 900px;
+    margin-left: 2rem;
+   }
+
+   .group{
+    width: 550px;
+   }
+
+   .group input{
+   
+      width: 100%;
+   }
+
+   #contactForm2{
+    padding-top: 2rem;
    }
 
    .imgDesk{
@@ -418,9 +433,5 @@ html, body{
     display: none;
     
   }
-
-
-
-
 
 }
