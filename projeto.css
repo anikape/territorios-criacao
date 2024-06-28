@@ -93,14 +93,22 @@ padding-left: 2rem;
   list-style: none;
   /* margin-left: -2rem; */
   width: 350px;
-  font-size: 18px;
+  color: #1E1E1E;
+font-family: "Source Sans Pro";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 
 }
 
 .objetivo ul li:last-child{
   padding-top: 1rem;
-  width: 350px;
-  font-size: 18px;
+  font-family: "Source Sans Pro";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   
 }
 
