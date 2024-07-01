@@ -16,7 +16,7 @@ html, body{
   color: rgba(251, 108, 4, 0.88);
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", monospace;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -26,7 +26,7 @@ html, body{
 
 .spanText {
   color: #3F3F3F;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 300;
@@ -35,7 +35,7 @@ html, body{
 
 .spanText2 {
   color: #3F3F3F;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -86,7 +86,7 @@ html, body{
   color: #FB6C04;
 text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 50px;
 font-style: normal;
 font-weight: 600;
@@ -97,7 +97,7 @@ line-height: normal;
 
 .agendaTitle{
   color: #2A2A2A;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 45px;
 font-style: normal;
 font-weight: 300;
@@ -109,7 +109,7 @@ padding-bottom: 2rem;
 
 .agendaS2{
   color: #3F3F3F;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 45px;
   font-style: normal;
   font-weight: 600;
@@ -144,7 +144,7 @@ padding-bottom: 2rem;
   color: rgba(251, 108, 4, 0.88);
 text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", monospace;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -267,7 +267,7 @@ text-align: center;
     color: #000;
     text-align: left;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", monospace;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
