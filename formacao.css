@@ -16,7 +16,7 @@ html, body{
   color: rgba(251, 108, 4, 0.88);
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", monospace;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -26,7 +26,7 @@ html, body{
 
 .spanText {
   color: #3F3F3F;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 300;
@@ -35,7 +35,7 @@ html, body{
 
 .spanText2 {
   color: #3F3F3F;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -46,7 +46,7 @@ html, body{
   color: #000;
   text-align: left;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", monospace;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -62,7 +62,7 @@ html, body{
   color: #2A2A2A;
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -74,7 +74,7 @@ html, body{
   color: rgba(251, 108, 4, 0.88);
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", monospace;
   font-size: 55px;
   font-style: normal;
   font-weight: 600;
@@ -84,7 +84,7 @@ html, body{
 
 .bolsistasSpan2 {
   color: #2A2A2A;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 300;
@@ -135,7 +135,7 @@ html, body{
 
 .card p {
   color: #000;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -146,7 +146,7 @@ html, body{
 
 .cardSpan {
   color: #FB6C04;
-  font-family: "Source Code Pro";
+  font-family: "Source Code Pro", monospace;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
@@ -170,7 +170,7 @@ html, body{
   /* width: 500px; */
   color: #FB6C04;
   text-align: center;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", monospace;
   font-size:58;
   font-style: normal;
   font-weight: 600;
@@ -181,7 +181,7 @@ html, body{
 
 .formContact p {
   color: #2A2A2A;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -192,7 +192,7 @@ html, body{
 
 .formContact span {
   color: #2A2A2A;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;

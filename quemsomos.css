@@ -15,7 +15,7 @@
   color: rgba(251, 108, 4, 0.88);
 text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 33px;
 font-style: normal;
 font-weight: 600;
@@ -25,7 +25,7 @@ margin: 0 auto;
 
 .spanText{
   color: #3F3F3F;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 33px;
 font-style: normal;
 font-weight: 300;
@@ -34,7 +34,7 @@ line-height: normal;
 
 .spanText2{
   color: #3F3F3F;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 33px;
 font-style: normal;
 font-weight: 600;
@@ -45,7 +45,7 @@ line-height: normal;
   color: #000;
 text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
@@ -80,7 +80,7 @@ padding-top: 45px;
 .mercurio h2, .poc h2{
   color: #FB6C04;
   text-align: center;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -91,7 +91,7 @@ padding-top: 45px;
 
 .mercurio span, .poc span{
   color: #000;
-font-family: "Source Code Pro";
+font-family: "Source Code Pro", monospace;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -100,7 +100,7 @@ line-height: normal;
 
 .mercurio p, .poc p{
   color: #000;
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
@@ -189,7 +189,7 @@ text-align: left;
   color: #FFF;
 padding-right: 3rem;
 text-align: right;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -203,7 +203,7 @@ width: 450px;
 
 .spanP1{
   color: #FB6C04;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 25px;
 font-style: normal;
 font-weight: 600;
@@ -213,7 +213,7 @@ text-decoration-line: underline;
 
 .spanP2{
   color: #FFF;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
@@ -263,7 +263,7 @@ height: 305px;
 width: 100%;
 text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 50px;
 font-style: normal;
 font-weight: 600;
@@ -273,7 +273,7 @@ padding-top: 3rem;
 
 .spanText{
   color: #3F3F3F;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 44px;
 font-style: normal;
 font-weight: 300;
@@ -282,7 +282,7 @@ line-height: normal;
 
 .spanText2{
   color: #3F3F3F;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 44px;
 font-style: normal;
 font-weight: 600;
@@ -293,7 +293,7 @@ line-height: normal;
   color: #000;
 text-align: left;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 25px;
 font-style: normal;
 font-weight: 400;
@@ -331,7 +331,7 @@ padding-top: 45px;
 .mercurio h2, .poc h2{
   color: #FB6C04;
   text-align: center;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -342,7 +342,7 @@ padding-top: 45px;
 
 .mercurio span, .poc span{
   color: #000;
-font-family: "Source Code Pro";
+font-family: "Source Code Pro", monospace;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -351,7 +351,7 @@ line-height: normal;
 
 .mercurio p, .poc p{
   color: #000;
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
@@ -392,7 +392,7 @@ margin: 5rem auto;
 color: #000;
 color: #FFF;
 text-align: right;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
@@ -406,7 +406,7 @@ text-decoration: none;
 
 .spanP1{
 color: #FB6C04;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sa;
 font-size: 25px;
 font-style: normal;
 font-weight: 600;
@@ -416,7 +416,7 @@ text-decoration-line: underline;
 
 .spanP2{
 color: #FFF;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
@@ -480,7 +480,7 @@ height: 247px;
 width: 100%;
 text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 50px;
 font-style: normal;
 font-weight: 600;
@@ -488,7 +488,7 @@ font-weight: 600;
 
 .spanText{
   color: #3F3F3F;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 44px;
 font-style: normal;
 font-weight: 300;
@@ -497,7 +497,7 @@ line-height: normal;
 
 .spanText2{
   color: #3F3F3F;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 44px;
 font-style: normal;
 font-weight: 600;
@@ -508,7 +508,7 @@ line-height: normal;
   color: #000;
 text-align: left;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 25px;
 font-style: normal;
 font-weight: 400;
@@ -545,7 +545,7 @@ padding-top: 45px;
 .mercurio h2, .poc h2{
   color: #FB6C04;
   text-align: center;
-  font-family: "Source Code Variable";
+  font-family: "Source Code Variable", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -556,7 +556,7 @@ padding-top: 45px;
 
 .mercurio span, .poc span{
   color: #000;
-font-family: "Source Code Pro";
+font-family: "Source Code Pro", monospace;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -565,7 +565,7 @@ line-height: normal;
 
 .mercurio p, .poc p{
   color: #000;
-font-family: "Source Sans Pro";
+font-family: "Source Sans Pro", monospace;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
@@ -606,7 +606,7 @@ margin: 5rem auto;
 color: #000;
 color: #FFF;
 text-align: right;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 19px;
 font-style: normal;
 font-weight: 600;
@@ -620,7 +620,7 @@ text-decoration: none;
 
 .spanP1{
 color: #FB6C04;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable",sans-serif;
 font-size: 25px;
 font-style: normal;
 font-weight: 600;
@@ -630,7 +630,7 @@ text-decoration-line: underline;
 
 .spanP2{
 color: #FFF;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
