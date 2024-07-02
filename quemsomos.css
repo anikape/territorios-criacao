@@ -231,7 +231,8 @@ text-decoration-line: underline;
 
 
 /*PC tela pequena*/
-@media screen and (min-width:769px) and (max-width:1440px){
+
+
   .quem{
     background-image: url('assets/vetor1.png');
     background-repeat: no-repeat;
