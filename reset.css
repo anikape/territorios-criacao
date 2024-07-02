@@ -13,7 +13,6 @@ ul {
   padding: 0;
 }
 
-
 html,
 body {
   max-width: 100%;
@@ -21,22 +20,20 @@ body {
   overflow-x: hidden;
 }
 
-/*estilo do scroll*/
+/* Estilo do Scroll */
 body::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
+  width: 12px; /* Largura do scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: #2a2a2a; /* color of the tracking area */
+  background: #2a2a2a; /* Cor do track */
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: rgba(251, 108, 4, 0.88);
-  border-radius: 20px; /* roundness of the scroll thumb */
-  border: 4px solid rgba(251, 108, 4, 0.88); /* creates padding around scroll thumb */
+  border-radius: 20px; /* Arredondamento do thumb */
+  border: 4px solid rgba(251, 108, 4, 0.88); /* Cria padding ao redor do thumb */
 }
-
-/**/
 
 /* Estilos Gerais */
 .footer {
@@ -58,7 +55,6 @@ body::-webkit-scrollbar-thumb {
 
 .footer-column {
   width: 100%;
-  
 }
 
 .footer-column h3 {
@@ -67,7 +63,6 @@ body::-webkit-scrollbar-thumb {
   font-weight: 700;
   color: #fb6c04;
 }
-
 
 .footer-link a {
   text-decoration: none;
@@ -86,7 +81,6 @@ body::-webkit-scrollbar-thumb {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
-  /* padding: 0.5rem; */
   margin: 1rem auto;
 }
 
@@ -110,7 +104,7 @@ body::-webkit-scrollbar-thumb {
   gap: 0.75rem;
 }
 
-.list li a:hover, .list2 li a:hover{
+.list li a:hover, .list2 li a:hover {
   color: #fb6c04;
 }
 
@@ -206,10 +200,8 @@ button:hover {
 
 /* Tablets */
 @media screen and (min-width: 426px) and (max-width: 768px) {
- 
   .footer-container {
     flex-direction: column;
-   
   }
   .logo-position {
     display: none;
@@ -222,19 +214,16 @@ button:hover {
 
 .footer-link a {
   font-size: 20px;
-
 }
 
-.footer-column-right{
+.footer-column-right {
   display: none;
 }
-
 
 #formResponse {
   text-align: center;
   padding: 1em;
-  color: #28a745;
-
+  color: #28a745; /* verde para sucesso */
 }
 
 #copyright {
@@ -253,19 +242,17 @@ button:hover {
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
-/*Grandes telas*/
+/* Grandes telas */
 @media screen and (min-width: 1441px) {
-
   .footer-column-right {
     display: flex;
     justify-content: flex-end;
     align-items: center; 
     margin-top: 2rem; 
     margin-right: -2rem;  
-   
   }
 
-   #formResponse {
+  #formResponse {
     text-align: center;
     color: #28a745; /* verde para sucesso */
   }
