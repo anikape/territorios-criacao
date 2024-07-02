@@ -16,8 +16,8 @@ html, body{
   color: rgba(251, 108, 4, 0.88);
 margin-left: 2.5rem;
 text-align: center;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+/* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+font-family: "Source Sans Pro", monospace;
 font-size: 50px;
 font-style: normal;
 font-weight: 600;
@@ -25,7 +25,7 @@ font-weight: 600;
 
 .spanText{
   color: #3F3F3F;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 44px;
 font-style: normal;
 font-weight: 300;
@@ -34,7 +34,7 @@ line-height: normal;
 
 .spanText2{
   color: #3F3F3F;
-font-family: "Source Code Variable";
+font-family: "Source Code Variable", sans-serif;
 font-size: 44px;
 font-style: normal;
 font-weight: 600;
@@ -44,8 +44,8 @@ line-height: normal;
 .projeto p{
   color: #000;
 text-align: left;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: "Source Sans Pro";
+/* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+font-family: "Source Sans Pro", monospace;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;

@@ -15,7 +15,7 @@ html, body{
 .formacao h1 {
   color: rgba(251, 108, 4, 0.88);
   text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   font-family: "Source Sans Pro", monospace;
   font-size: 30px;
   font-style: normal;
@@ -45,7 +45,7 @@ html, body{
 .formacao p {
   color: #000;
   text-align: left;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   font-family: "Source Sans Pro", monospace;
   font-size: 20px;
   font-style: normal;
@@ -61,7 +61,7 @@ html, body{
 
   color: #2A2A2A;
   text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   font-family: "Source Code Variable", sans-serif;
   font-size: 50px;
   font-style: normal;
@@ -73,7 +73,7 @@ html, body{
 .bolsistasSpan1 {
   color: rgba(251, 108, 4, 0.88);
   text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   font-family: "Source Sans Pro", monospace;
   font-size: 55px;
   font-style: normal;
@@ -342,7 +342,7 @@ html, body{
   .formacao p {
     color: #000;
     text-align: left;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     font-family: "Source Sans Pro";
     font-size: 25px;
     font-style: normal;
