@@ -186,6 +186,10 @@ button:hover {
 }
 
 @media screen and (max-width:425px){
+
+  .footer{
+    margin-top: 20rem;
+  }
   
   .footer-link a{
     font-size: 16px !important;
@@ -212,6 +216,11 @@ button:hover {
 
 /* Tablets */
 @media screen and (min-width: 426px) and (max-width: 768px) {
+
+  .footer{
+    margin-top: 20rem;
+  }
+  
   .footer-container {
     flex-direction: column;
   }

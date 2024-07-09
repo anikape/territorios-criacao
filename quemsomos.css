@@ -139,6 +139,58 @@ text-align: left;
   margin: 0 auto;
 }
 
+@media screen and (max-width:425px){
+  
+  .selo{
+    display: none !important;
+  }
+
+  .quem{
+    width: 300px;
+    margin-top: 50px;
+    background: none !important;
+  }
+
+  .quem div{
+   width: 100%;
+   }
+
+   .quem p{
+    width: 100% !important;
+    padding-left: 0;
+   }
+
+   .mercurio{
+    padding-top: 8rem; 
+    background-image: none !important;
+
+   }
+
+   .mercurio p, .poc p{
+    width: 90% !important;
+   
+   }
+
+   .infoDesk{
+    display: none !important;
+   }
+
+   .infoMobile{
+    display: flex !important;
+   }
+
+   .imgDesk{
+    display: none !important;
+   }
+   
+   .imgMb{
+    display: flex !important;
+    
+   }
+
+
+}
+
 /*Tablet*/
 @media screen and (min-width:426px) and (max-width:768px){
   .quem{
@@ -146,17 +198,35 @@ text-align: left;
     display: flex;
     justify-content: center;
     width: 100%;
+    background: none !important;
   }
 
   .selo{
-    display: flex;
-    width: 238px;
-    height: 385px;
+    display: none !important;
   }
 
+  .quem div{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .quem p{
+    width: 100% !important;
+    padding-left: 0;
+    
+  }
+
+  .mercurio{
+    margin-top: -10rem !important;
+    background-image: none !important;
+  }
+
+  .poc{
+    background-image: none !important;
+  }
 
   .mercurio h2, .poc h2, .mercurio span, .poc span,.mercurio p, .poc p{
-    width: 90%;
+    width: 90% !important;
   }
 
   .infoMobile{
@@ -165,12 +235,13 @@ text-align: left;
 
   .infoDesk{
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
     padding-top: 3rem;
-    width: 767px;
+    width: 667px; */
   }
-
+ 
+  
  
 .information{
   margin-top: 5rem;
@@ -225,7 +296,16 @@ text-decoration-line: underline;
   width: 193px;
   height: 247px;
  }
-   
+
+ .imgDesk{
+  display: none !important;
+ }
+  
+ .imgMb{
+  display: flex !important;
+ }
+
+
   
 }
 
@@ -446,7 +526,7 @@ height: 247px;
 }
  
 
-}
+
 
 /*Grandes telas*/
 @media screen and (min-width:1441px) and (max-width:1920px){
