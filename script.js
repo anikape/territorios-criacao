@@ -93,3 +93,35 @@ function limparFormulario() {
         }, 10000);
       });
     });
+
+
+    /**Exclusão de cache e cookies */
+
+    function clearCookies() {
+      var cookies = document.cookie.split(";");
+
+      for (var i = 0; i < cookies.length; i++) {
+          var cookie = cookies[i];
+          var eqPos = cookie.indexOf("=");
+          var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+          document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+      }
+  }
+
+  function forceRefresh() {
+      var now = new Date().getTime();
+      if (localStorage.getItem('lastLoadTime')) {
+          var lastLoadTime = parseInt(localStorage.getItem('lastLoadTime'));
+          if (now - lastLoadTime > 5 * 60 * 1000) { // 5 minutos
+              clearCookies();
+              localStorage.setItem('lastLoadTime', now);
+              location.reload(true); // Força a atualização da página
+          }
+      } else {
+          localStorage.setItem('lastLoadTime', now);
+      }
+  }
+
+  window.onload = function() {
+      forceRefresh();
+  };
