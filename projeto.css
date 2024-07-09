@@ -133,12 +133,30 @@ line-height: normal;
   margin:  0 auto;
 }
 
+
+@media screen and (max-width:425px) {
+
+  .projeto img{
+    display: none;
+  }
+
+  .projeto div{
+    width: 100%;
+    margin-left: 0;
+   
+  }
+
+  .projeto p{
+    width: 100% !important;
+    padding: 2em;
+  }
+
+}
+
 @media screen and (min-width:426px) and (max-width:768px){
 
   .projeto img{
-    display: flex;
-    width: 238px;
-    height: 385px;
+    display: none;
   }
 
  .projeto{
@@ -162,25 +180,28 @@ line-height: normal;
  .projeto p{
   font-size: 20px;
   width: 95%;
+  padding-left: 4rem;
  }
 
  .objetivo{
   width:100%;
  }
 
- .objetivoTitle, .objetivoParag, .objetivo ul li{
+ .objetivoTitle {
   width: 100%;
+ }
+
+ .objetivoParag, .objetivo ul li{
+  width: 90%;
  }
 
  #conclusao{
   width: 100%;
  }
 
-}projeto img{
-    display: flex !important;
-    width: 238px;
-    height: 385px;
-  }
+}
+
+
 
 
 /*PC telas pequenas*/
