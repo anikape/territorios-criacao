@@ -12,7 +12,7 @@
 .criacao h1 {
   display: none;
   color: #FB6C04;
-  font-family: "Source Code Pro black",monospace;
+  font-family: "Source Code Pro black", monospace;
   font-size: 145px;
   font-style: normal;
   font-weight: 900;
@@ -23,14 +23,14 @@
 
 
 .criacao h2 {
-  
+
   color: #FFF;
   font-family: Source Sans Pro ExtraLight, monospace;
   font-size: 96px;
   font-weight: 200;
   padding-left: 0.2em;
   margin-top: -2rem;
-  
+
 }
 
 .criacao p {
@@ -41,7 +41,7 @@
   width: 345px;
   padding-left: 0.5em;
   height: 100px;
- 
+
 }
 
 .bemvindo {
@@ -52,7 +52,7 @@
   height: 900px;
   padding: 1rem;
   width: 100%;
-  
+
 }
 
 .bemvindo h3 {
@@ -78,7 +78,7 @@
 
 .span2 {
   color: #2A2A2A;
-  font-family: "Source Code Variable",sans-serif;
+  font-family: "Source Code Variable", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 300;
@@ -109,7 +109,8 @@
 
 .card-link img {
   width: 147px;
-  height: 205px;;
+  height: 205px;
+  ;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -123,46 +124,46 @@
   /* Adiciona uma sombra mais pronunciada */
 }
 
-.imgDesk{
+.imgDesk {
   display: none;
 
 }
 
-.imgMb{
+.imgMb {
   display: flex;
   margin: 0 auto;
 }
 
 /*Celular*/
 @media screen and (max-width:425px) {
-  #h1mb{
+  #h1mb {
     display: flex;
     font-size: 70px;
-    padding-top:1em;
+    padding-top: 1em;
   }
 
-  .criacao h2{
+  .criacao h2 {
     padding: 0.7em 0 0 0.9em;
     font-size: 50px;
   }
 
-  .criacao p{
+  .criacao p {
     padding-left: 2em;
     padding-top: 0.5em;
     color: #FFF;
-font-family: "Source Code Variable", sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: "Source Code Variable", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 
-  
+
   .bemvindo h3 {
     font-size: 46px;
   }
 
-  .span1{
+  .span1 {
     font-size: 50px;
   }
 
@@ -176,100 +177,83 @@ line-height: normal;
 
 
 /*Tablet*/
-@media screen and (min-width:426px) and (max-width:768px){
+@media screen and (min-width:426px) and (max-width:768px) {
 
-  .criacao{
-    background-image: url('assets/bgIndex.png'); 
+  .criacao {
+    background-image: url('assets/bgIndex.png');
     background-repeat: no-repeat;
     padding-left: 2rem;
 
   }
 
-    
-  #h1mb{
+
+  #h1mb {
     display: flex;
   }
 
-  .h1desktop{
+  .h1desktop {
     display: none !important;
   }
 
-  .criacao h1{
+  .criacao h1 {
     display: flex;
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding-top:8rem;
+    padding-top: 8rem;
     padding-left: 0;
-    
+
   }
 
-  .criacao h2{
+  .criacao h2 {
     padding-left: 0;
   }
 
-  .criacao p{
+  .criacao p {
     padding-left: 0.1em;
     color: #FFF;
-font-family: "Source Code Variable";
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: "Source Code Variable";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 
-/* 
-  .iniciativas p {
-    display: flex;
-    color: #FFF;
-    font-family: "Source Sans Pro";
-  
-  } */
 
-  /* .iniciativa1 {
-    color: #FB6C04;
-  }
-  
-  .iniciativa2 {
-    color: white;
-    font-size: 40px;
-    font-family: Source Code Variable;
-    font-weight: 300;
-  } */
-  
 
 }
 
 
 /*PC tela pequena*/
-@media screen and (min-width:769px) and (max-width:1440px){
+@media screen and (min-width:769px) and (max-width:1440px) {
 
-  .criacao{
-    background-image: url('assets/bgIndex.png'); 
+  .criacao {
+    background-image: url('assets/bgIndex.png');
     padding-left: 3rem;
     padding-top: 5rem;
   }
-  #h1mb{
+
+  #h1mb {
     display: none;
   }
 
-  .criacao h1{
+  .criacao h1 {
     display: flex;
     font-size: 100px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding-top:17rem;
+    padding-top: 17rem;
     padding-left: 0;
-    
+
   }
 
-  .bemvindo{
+  .bemvindo {
     width: 100%;
   }
 
-  .iniciativas{
+  .iniciativas {
     background-image: url('assets/bgIniciativas.png');
     width: 100%;
     height: 500px;
@@ -277,8 +261,8 @@ line-height: normal;
     justify-content: center;
   }
 
-  
-/* .iniciativas p {
+
+  /* .iniciativas p {
   display: flex;
   color: #FFF;
   font-family: "Source Sans Pro";
@@ -309,27 +293,27 @@ line-height: normal;
     width: 90%;
   }
 
-  .card-link img{
+  .card-link img {
     width: 100%;
 
-}
+  }
 
-  .card-link img{
+  .card-link img {
     width: 90%;
   }
 
-  .patrocinio{
+  .patrocinio {
     display: flex;
     width: 100%;
   }
 
-  .imgDesk{
-    display:flex;
-  
+  .imgDesk {
+    display: flex;
+
   }
-  
-  .imgMb{
-    display:none;
+
+  .imgMb {
+    display: none;
 
   }
 
@@ -337,19 +321,19 @@ line-height: normal;
 
 /*Grandes telas*/
 
-@media screen and (min-width:1441px) and (max-width:2000px){
+@media screen and (min-width:1441px) and (max-width:2000px) {
 
-  .criacao{
+  .criacao {
     background-image: url('assets/bgLarge.png');
     height: 1080px;
-  
+
   }
 
-  #h1mb{
+  #h1mb {
     display: none;
   }
 
-  .criacao h1{
+  .criacao h1 {
     display: flex;
     font-size: 145px;
     font-style: normal;
@@ -381,11 +365,12 @@ line-height: normal;
     padding-left: 2.5em;
   }
 
-  .iniciativas{
+  .iniciativas {
     background-image: url('assets/bgIniciativas.png');
-    
+
   }
-/* 
+
+  /* 
   .iniciativas p {
     display: block;
     color: #FFF;
@@ -396,7 +381,7 @@ line-height: normal;
   } */
 
 
- 
+
 
   .cards {
     display: flex;
@@ -405,7 +390,7 @@ line-height: normal;
     /* margin-top: 20px; */
     width: 100%;
     height: 611px;
-    gap:20px;
+    gap: 20px;
   }
 
   .card-link {
@@ -418,7 +403,7 @@ line-height: normal;
     /* Defina o tamanho do card conforme necessário */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   margin-top: 5rem;
+    margin-top: 5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
@@ -436,11 +421,12 @@ line-height: normal;
     height: 252px;
     margin-top: 5em;
   }
-   
-  .imgDesk{
-    display:flex;  
+
+  .imgDesk {
+    display: flex;
   }
-  
-  .imgMb{
-    display:none;
-}}
+
+  .imgMb {
+    display: none;
+  }
+}

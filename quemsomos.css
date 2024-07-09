@@ -166,6 +166,10 @@ text-align: left;
 
    }
 
+   .poc{
+    background-image: none !important;
+   }
+
    .mercurio p, .poc p{
     width: 90% !important;
    
