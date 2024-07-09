@@ -85,7 +85,6 @@ html, body{
 .agendaS1{
   color: #FB6C04;
 text-align: center;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: "Source Sans Pro", monospace;
 font-size: 50px;
 font-style: normal;
@@ -166,6 +165,39 @@ text-align: center;
   margin: 0 auto;
 }
 
+@media screen and (max-width:425px) {
+  .editais img{
+    display: none;
+  }
+
+  .editais div{
+    width: 100%;
+    margin-left: 0;
+   
+  }
+
+  .editais h1, .spanText, .spanText2{
+    width: 100%;
+    padding-right: 0.5em;
+    font-size: 44px !important;
+   }
+
+   .editais h1, .spanText, .spanText2{
+    width: 100%;
+    padding-right: 0.5em;
+   }
+
+   .editais p{
+    width: 90% !important;
+    padding-left: 2rem !important;
+   }
+
+
+
+
+
+}
+
 
 
 /*TABLET*/
@@ -180,19 +212,19 @@ text-align: center;
   }
 
   .editais img{
-    display: flex;
+    display:none;
     width: 238px;
     height: 385px;
   }
 
   .editais  div{
     margin-top: 0;
-    margin-left: -5rem;
+    margin-left: -2rem;
   }
 
 
   .editais h1, .spanText,.spanText2 {
-   
+   font-size: 44px !important;
     width: 100%;
     
   }
@@ -208,6 +240,27 @@ text-align: center;
   .editais p {
     width: 90%;
     font-size: 21px;
+  }
+
+  .editalContent{
+    margin-top: 10rem;
+  }
+
+  .editalCard1 img, .editalCard2 img{
+
+    width: 500px;
+  }
+
+  .agendaCard, .card{
+    width: 100%;
+  }
+
+  .videos{
+    width: 100%;
+  }
+
+  .videos iframe{
+    width: 100%;
   }
 
 
