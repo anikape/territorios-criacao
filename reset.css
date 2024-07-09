@@ -185,6 +185,18 @@ button:hover {
   text-align: center;
 }
 
+@media screen and (max-width:425px){
+  
+  .footer-link a{
+    font-size: 16px !important;
+   
+  }
+
+  #formulario{
+    padding-top: 2em;
+  }
+}
+
 @media (max-width: 1024px) {
   .logo-position {
     display: none;
