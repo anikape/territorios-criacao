@@ -263,14 +263,13 @@ html, body{
   }
 
   .publicacao img{
-    display: flex;
-    width: 238px;
-    height: 385px;
+    display: none;
+   
   }
 
   .publicacao  div{
     margin-top: 0;
-    margin-left: -5rem;
+    margin-left: -5em;
   }
 
 
@@ -289,7 +288,7 @@ html, body{
   }
 
   .publicacao p {
-    width: 90%;
+    width: 100%;
     font-size: 21px;
   }
 
