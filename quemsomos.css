@@ -195,7 +195,7 @@ text-align: left;
 
 }
 
-
+/*Exclusivo pra iphone 14 plus*/
 @media  (min-width:428px) and (max-width: 430px) {
 
   .infoMobile{
