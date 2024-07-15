@@ -195,6 +195,21 @@ text-align: left;
 
 }
 
+/*Exclusivo pra iphone 14 plus*/
+@media  (min-width:428px) and (max-width: 430px) {
+
+  .infoMobile{
+    display: flex !important;
+  }
+  
+  .infoDesk{
+    display: none !important;
+    
+  }
+  
+}
+
+
 /*Tablet*/
 @media screen and (min-width:426px) and (max-width:768px){
   .quem{
@@ -221,7 +236,7 @@ text-align: left;
   }
 
   .mercurio{
-    margin-top: -10rem !important;
+    margin-top: -6rem !important;
     background-image: none !important;
   }
 
