@@ -245,8 +245,33 @@ html, body{
   margin: 0 auto;
 }
 
+/*Exclusivo pra iphone 14 plus*/
+@media  (min-width:428px) and (max-width: 430px){
+  .formacao  div{
+    margin-top: 0;
+    padding: 2em;
+  }
+
+  
+  .formacao h1, .spanText,.spanText2{
+    font-size: 40px !important;
+    width: 100%;
+  }
+
+  .formacao  p{
+    /* margin-left: 0.1rem; */
+    width: 100%;
+    font-size: 24px;
+    
+   }
+
+
+
+
+}
+
 /*TABLET*/
-@media screen and (min-width:426px) and (max-width:768px){
+@media screen and (min-width:431px) and (max-width:768px){
  
   .formacao{
     height: 761px;

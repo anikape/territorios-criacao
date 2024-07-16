@@ -193,15 +193,32 @@ text-align: center;
    }
 
 
+}
 
+/*Exclusivo pra iphone 14 plus*/
+@media  (min-width:428px) and (max-width: 430px) {
 
+  .editais div{
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .editais h1, .spanText,.spanText2 {
+    font-size: 40px !important;
+     width: 100%;
+     
+   }
+
+   .editais p{
+    padding-left: 1em;
+    width: 95%;
+   }
 
 }
 
 
-
 /*TABLET*/
-@media screen and (min-width:426px) and (max-width:768px){
+@media screen and (min-width:431px) and (max-width:768px){
  
   .editais{
     height: 761px;
@@ -229,13 +246,13 @@ text-align: center;
     
   }
 
-  .editais h1{
+  /* .editais h1{
     font-size: 40px;
   }
 
   .spanText,.spanText2{
     font-size: 34px;
-  }
+  } */
 
   .editais p {
     width: 90%;
