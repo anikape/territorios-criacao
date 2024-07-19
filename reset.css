@@ -9,6 +9,14 @@
   list-style: none;
 }
 
+body {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}
+
 ul {
   padding: 0;
 }
